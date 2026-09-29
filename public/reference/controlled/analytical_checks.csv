@@ -1,0 +1,17 @@
+test,actual,expected,passed,meaning
+binary_KS,0.0010000000000000009,0.001,True,Population binary KS equals rate difference
+binary_W1,0.0010000000000000009,0.001,True,Unit spacing; not a second independent difference
+ETA_rho1_m0,1.0,1.0,True,Analytical score property only; complete historical Q4 gate unverified
+ETA_rho1_m3,0.5248935341839319,0.524893534183932,True,Analytical score property only; complete historical Q4 gate unverified
+ETA_rho1_m10,0.5000226999648812,0.500022699964881,True,Analytical score property only; complete historical Q4 gate unverified
+folded_AUC_pair,0.52,0.52,True,Finite-sample folding changes null mean
+equal_marginals,0.0,0.0,True,Marginals do not identify co-occurrence
+equal_union,0.0,0.0,True,Union alone does not identify co-occurrence
+different_pair01,0.25,0.25,True,Counterexample to full joint realism from union
+joint_observed_value_difference,0.0,0.0,True,Conditional equality only
+own_observed_mean_difference,5.0,5.0,True,"Different observable populations, not imputation"
+same_mask_rate,0.0,0.0,True,Rate agreement alone does not prove reporting/value dependence
+real_overlap_fraction,0.5,0.5,True,Half of each observed population omitted by intersection
+clock_lag1_valid_pairs,0.0,0.0,True,No valid adjacent-time pairs despite three observed values
+staleness_reset,0.0,0.0,True,Initialize unknown when no prior report is available
+observed_OFF_is_valid,0.0,0.0,True,Physical inactivity is not missing observation

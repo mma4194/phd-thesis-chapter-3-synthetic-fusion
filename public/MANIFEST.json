@@ -1,0 +1,132 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "5e6023ce6b90bdf308b61ac11e300c8810b8eb9dfb5ca944eff8a221ffe7b91e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "6525503050cdfabc5f0b8f696db1618a4268e16a5805daa664a0123374abad99"
+    },
+    {
+      "path": "reference/controlled/analytical_checks.csv",
+      "sha256": "90585367023b80775305918dda953e0b72e2e24c52ad65577e1ea19c8a4c80ce"
+    },
+    {
+      "path": "reference/controlled/decision_by_setting.csv",
+      "sha256": "7faa528cbce4301b0ebc808e15b0daa48f2bbdb3d97ebb3a52c0ec758087a1e8"
+    },
+    {
+      "path": "reference/controlled/policy_tests.csv",
+      "sha256": "34aeb4b2d4ab333decc6636b3436454b225e6f63dbb9f12890afda710d070da8"
+    },
+    {
+      "path": "reference/controlled/protocol_frozen.json",
+      "sha256": "b06f59d1704680b45bdfbb171afb5cc7062a7f9bf7054f8ffac3e7b6d07867fd"
+    },
+    {
+      "path": "reference/controlled/trial_results.csv",
+      "sha256": "ea2fe526b060c9360e7dc22359638f0f28a773e0f2ef49b71052f6910c5d16a8"
+    },
+    {
+      "path": "reference/controlled/truth_by_decision.csv",
+      "sha256": "d6881fb3ad417be013eeee42a5e77ea9e2886f7d6b7b99b03fa684b636f4f356"
+    },
+    {
+      "path": "reference/paper_plot_values.json",
+      "sha256": "042c0680bf192f2ee0ff04df4d514788f66a2faf14483958371497b985c92423"
+    },
+    {
+      "path": "reference/smartstar/branch_c2st_smoke_diagnostic.csv",
+      "sha256": "7d11a18310d43023fe5a79f9a709680fbedada3355bb1ec9d4f133917b46cd31"
+    },
+    {
+      "path": "reference/smartstar/branch_readiness_summary.csv",
+      "sha256": "61d5f05e9b64f4aab7b31d068cf0c8e17ccc8b3873c072dc6e8b51cefd53d4ba"
+    },
+    {
+      "path": "reference/smartstar/candidate_selection_val_only_ledger.csv",
+      "sha256": "892aaee200f33888b323c4de5c746885c1298ab74446a79f0ae130c899ed9a7e"
+    },
+    {
+      "path": "reference/smartstar/feature_eligibility_train_val_only.csv",
+      "sha256": "de5cb937b065baf9e4fb4b1e5690e2e183ed5003bcd6974618cff55958b30fd2"
+    },
+    {
+      "path": "reference/smartstar/q6_public_source_release_manifest.csv",
+      "sha256": "64885c580c83c13b0058eb621aabf0851c3ddcefd551d3a21b2cc2e8555685fe"
+    },
+    {
+      "path": "reference/smartstar/split_manifest.csv",
+      "sha256": "10e31a162a373eea244fa4985f430fed3b84cab047bab68e928787e52e6b81ed"
+    },
+    {
+      "path": "reference/smartstar/test_evidence_q1_q2_q3_ledger.csv",
+      "sha256": "dfb31293ae9336d051ccaec21548f93080b676f1ab3b017eebffa8ddd30e75fa"
+    },
+    {
+      "path": "reference/smartstar/transfer_policy_manifest_v0.json",
+      "sha256": "2ce1ac5e233a14c3381e5a1446deb7b33676db7d973aa066da137f63983ccc30"
+    },
+    {
+      "path": "reference/toniot/toniot_aligned_windows_reference.csv.gz",
+      "sha256": "55698701993dd79238286ca1b66cebcbd779517f3d4f62244470e136e75d0f2b"
+    },
+    {
+      "path": "reference/toniot/toniot_chronological_split_manifest.csv",
+      "sha256": "bb434765b922302d888b780bed533c16f9d036de4655fb08c29963d94368aeb0"
+    },
+    {
+      "path": "reference/toniot/toniot_physical_q4_manifest_trainval_frozen.csv",
+      "sha256": "5180c9bdf240cacc1c418b8e2fdee3f2d681239e4aa7262f70c8e3fe8ccc8930"
+    },
+    {
+      "path": "reference/toniot/toniot_physical_q4_test_event_response_audit.csv",
+      "sha256": "2efba676c7876febbce26196382a2c9f40c264884eadc58e72ed91c0cec86d59"
+    },
+    {
+      "path": "reference/toniot/toniot_q6_release_scope_table_physical_q4.csv",
+      "sha256": "df130e45b2fe95efe4718a60b909c2f26a1a9877d84fadd7db4b8ef5cdcdd18b"
+    },
+    {
+      "path": "reference/toniot/toniot_role_owner_manifest.csv",
+      "sha256": "f4e9c6300b53c43bd27fc1545ad2b545c77cfc27a1d38efc37a05fbaf909feda"
+    },
+    {
+      "path": "run.py",
+      "sha256": "b93c24fb9e21ff7e993b56a35b4ae6a362b51b4752e2731ec2c82d27283feefb"
+    },
+    {
+      "path": "src/controlled.py",
+      "sha256": "a990b40a3f2f15c235396ab27bd43573c32f4af72a59f2d2bc30c37b760c7611"
+    },
+    {
+      "path": "src/plot_figures.py",
+      "sha256": "5286b753ec47695b57ad7d274e744cd311c11746b860fe549be514eb693e405f"
+    },
+    {
+      "path": "src/smartstar.py",
+      "sha256": "89a50a72be0eb2211b68420e96abd841c405f870a9502d50e52a5abacf417b91"
+    },
+    {
+      "path": "src/toniot_base.py",
+      "sha256": "e923c2055cac8dc10e5ab28d664e27b55e12bac6285fd3168b811fd0facdd8ca"
+    },
+    {
+      "path": "src/toniot_metrics.py",
+      "sha256": "f00931d84000dd2231984ee492c1065771445742cb4c39de7f08629ed66a0cdf"
+    },
+    {
+      "path": "src/toniot_physical.py",
+      "sha256": "d93595a0429d9b84c30f85cacfb7793ab062cdc72060b5c591d3ad92ac1f9b94"
+    },
+    {
+      "path": "src/verify.py",
+      "sha256": "b83a2e0c56dbd739c94c5e4b249751f2a264face10eeb06f766224e5abf80748"
+    },
+    {
+      "path": "tests/test_artifact.py",
+      "sha256": "8ee085c3891ffed71e58340a6a16105f7ea83324eb2ae3cb729bf7858079efef"
+    }
+  ]
+}

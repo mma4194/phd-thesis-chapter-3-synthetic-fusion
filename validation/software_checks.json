@@ -1,0 +1,13 @@
+{
+  "edition": "2.1.0",
+  "core_tests_passed": 32,
+  "public_tests_passed": 5,
+  "scientific_source_cells_unchanged": true,
+  "fixed_research_inputs_unchanged": true,
+  "public_stage_source_and_references_unchanged": true,
+  "registered_reference_unchanged": true,
+  "notebook_schema_and_code_compile": "PASS",
+  "new_full_dataset_execution_performed": false,
+  "independent_run_repeatability_verified": false,
+  "required_residential_asset_present": false
+}

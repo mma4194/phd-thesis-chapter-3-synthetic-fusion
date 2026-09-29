@@ -1,0 +1,229 @@
+id,expected,reported_latex,operation,evidence_path,column,filter,aggregate,dependencies,decimals
+AzeroAllBlockerN,1.0,1,csv,residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv,publication_blocker_n,"{""q4_scope"": ""A0_all_8_zigbee_safe_candidate""}",single,[],[0]
+AzeroAllPairs,8.0,8,csv,residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv,pair_n,"{""q4_scope"": ""A0_all_8_zigbee_safe_candidate""}",single,[],[0]
+AzeroValFeasibleMeanETA,0.7106506013083256,0.710651,csv,residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv,mean_ETA_similarity,"{""q4_scope"": ""A0_VAL_feasible_zigbee_subset""}",single,[],[6]
+AzeroValFeasiblePairs,6.0,6,csv,residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv,pair_n,"{""q4_scope"": ""A0_VAL_feasible_zigbee_subset""}",single,[],[0]
+BaselineIoTCompactBestExternalPenalty,0.3618084021603097,0.361808,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""artifact_type"": ""external_baseline"", ""metric_status"": ""evaluated"", ""scope_id"": ""iot_continuous_compact_tabular""}",min,[],[6]
+BaselineIoTCompactPenalty,0.3547821729645631,0.354782,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""RoleAwarePipeline"", ""metric_status"": ""evaluated"", ""scope_id"": ""iot_continuous_compact_tabular""}",single,[],[6]
+BaselineIoTCompactGap,0.0070262291957465806,0.007026,subtract,,,{},,"[""BaselineIoTCompactBestExternalPenalty"", ""BaselineIoTCompactPenalty""]",[6]
+BaselineProtocolCoreBestExternalPenalty,0.1500775131272842,0.150078,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""artifact_type"": ""external_baseline"", ""metric_status"": ""evaluated"", ""scope_id"": ""protocol_core_tabular""}",min,[],[6]
+BaselineProtocolCorePenalty,0.0748136544128165,0.074814,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""RoleAwarePipeline"", ""metric_status"": ""evaluated"", ""scope_id"": ""protocol_core_tabular""}",single,[],[6]
+BaselineProtocolSeqBestExternalPenalty,0.3286020131084038,0.328602,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""artifact_type"": ""external_baseline"", ""metric_status"": ""evaluated"", ""scope_id"": ""protocol_sequence_temporal""}",min,[],[6]
+BaselineProtocolSeqPenalty,0.0621757080347736,0.062176,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""RoleAwarePipeline"", ""metric_status"": ""evaluated"", ""scope_id"": ""protocol_sequence_temporal""}",single,[],[6]
+BaselinePublicCoreBestExternalPenalty,0.2014831379631854,0.201483,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""artifact_type"": ""external_baseline"", ""metric_status"": ""evaluated"", ""scope_id"": ""public_candidate_core_tabular""}",min,[],[6]
+BaselinePublicCorePenalty,0.0623482770638812,0.062348,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""RoleAwarePipeline"", ""metric_status"": ""evaluated"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],[6]
+BaselineSequenceCoreBestExternalPenalty,0.4569154455692555,0.456915,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""artifact_type"": ""external_baseline"", ""metric_status"": ""evaluated"", ""scope_id"": ""sequence_core_temporal""}",min,[],[6]
+BaselineSequenceCorePenalty,0.0488305342248219,0.048831,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""RoleAwarePipeline"", ""metric_status"": ""evaluated"", ""scope_id"": ""sequence_core_temporal""}",single,[],[6]
+ContinuousAllTestAUC,0.6809067595246676,0.680907,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,TEST_AUC,"{""scope"": ""all_continuous_targets""}",single,[],[6]
+ContinuousAllTestFatalN,27.0,27,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,TEST_fatal_n,"{""scope"": ""all_continuous_targets""}",single,[],[0]
+ContinuousFatalN,48.0,48,csv,residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv,None,"{""test_qa_status"": ""fatal""}",rows,[],[0]
+ContinuousFinalOwned,147.0,147,csv,residential_BINARY_V6/reports/iot_full_assembly_audit.csv,value,"{""metric"": ""continuous_final_owned_n""}",single,[],[0]
+ContinuousMeanCtwoST,0.6809067595246676,0.680907,csv,residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv,val_c2st_auc_logreg_1d,{},mean,[],[6]
+ContinuousMeanKS,0.37997634579872197,0.379976,csv,residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv,KS,{},mean,[],[6]
+ContinuousMeanWass,0.3700428901719807,0.370043,csv,residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv,wasserstein_norm,{},mean,[],[6]
+ContinuousPassN,70.0,70,csv,residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv,None,"{""test_qa_status"": ""pass""}",rows,[],[0]
+ContinuousTargets,148.0,148,csv,residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv,None,{},rows,[],[0]
+ContinuousTauFiftyFiveCols,71.0,71,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,columns,"{""scope"": ""target_ready_tau_0.55""}",single,[],[0]
+ContinuousTauFiftyFiveTestAUC,0.5969943441975285,0.596994,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,TEST_AUC,"{""scope"": ""target_ready_tau_0.55""}",single,[],[6]
+ContinuousTauFiftyFiveTestFatalN,9.0,9,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,TEST_fatal_n,"{""scope"": ""target_ready_tau_0.55""}",single,[],[0]
+ContinuousTauSixtyCols,96.0,96,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,columns,"{""scope"": ""target_ready_tau_0.60""}",single,[],[0]
+ContinuousTauSixtyTestAUC,0.6195525154471397,0.619553,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,TEST_AUC,"{""scope"": ""target_ready_tau_0.60""}",single,[],[6]
+ContinuousTauSixtyTestFatalN,14.0,14,csv,residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv,TEST_fatal_n,"{""scope"": ""target_ready_tau_0.60""}",single,[],[0]
+ContinuousWarningN,30.0,30,csv,residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv,None,"{""test_qa_status"": ""warning""}",rows,[],[0]
+CvThreeRefCtwoSTExact,0.7666247679729729,0.766625,csv,residential_BINARY_V6/reports/review_fix_outputs/window_vs_pooled_reconciliation.csv,value,"{""quantity"": ""EXTC_same_instrument_pooled_percol_C2ST_AUC""}",single,[],[6]
+CvThreeWinCtwoSTMax,0.8122824940540542,0.8123,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_percol_c2st,{},max,[],[4]
+CvThreeWinCtwoSTMin,0.7814123535135135,0.7814,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_percol_c2st,{},min,[],[4]
+CvThreeWinCtwoSTStd,0.011840266287199122,0.0118,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_percol_c2st,{},std,[],[4]
+CvThreeWinKSMax,0.5438538738315681,0.5439,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_ks,{},max,[],[4]
+CvThreeWinKSMean,0.5032203135278974,0.5032,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_ks,{},mean,[],[4]
+CvThreeWinKSMin,0.4655329255059238,0.4655,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_ks,{},min,[],[4]
+CvThreeWinKSStd,0.030910908841697463,0.0309,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_ks,{},std,[],[4]
+CvThreeWindowCtwoSTExact,0.7957832645270271,0.795783,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv,mean_percol_c2st,{},mean,[],[6]
+DriverCorrFatalN,3.0,3,csv,residential_BINARY_V6/reports/cell12e6_driver_corrected_release_ledger.csv,None,"{""driver_corrected_ratio_battery_status"": ""fatal""}",rows,[],[0]
+DriverCorrPassN,13.0,13,csv,residential_BINARY_V6/reports/cell12e6_driver_corrected_release_ledger.csv,None,"{""driver_corrected_ratio_battery_status"": ""pass""}",rows,[],[0]
+DriverCorrWarningN,10.0,10,csv,residential_BINARY_V6/reports/cell12e6_driver_corrected_release_ledger.csv,None,"{""driver_corrected_ratio_battery_status"": ""warning""}",rows,[],[0]
+DriverPublicCols,0.0,0,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet,,{},,[],[0]
+DriverReleaseExcludedN,3.0,3,identity,,,{},,"[""DriverCorrFatalN""]",[0]
+PriorPublicCols,46.0,46,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_MITIGATED.parquet,,{},,[],[0]
+PublicCols,23.0,23,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet,,{},,[],[0]
+DriverSequenceBlockedN,23.0,23,subtract,,,{},,"[""PriorPublicCols"", ""PublicCols""]",[0]
+FullScientificCols,555.0,555,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_FINAL_NO_Q4.parquet,,{},,[],[0]
+DroppedPublicCols,532.0,532,subtract,,,{},,"[""FullScientificCols"", ""PublicCols""]",[0]
+ExtCDriverKsMean,0.0003562591435331,0.00036,csv,window_reconstruction/window_metrics.csv,mean_ks,"{""branch"": ""drivers""}",mean,[],[5]
+ExtCRouterKsMax,0.0743166355188567,0.074,csv,window_reconstruction/window_metrics.csv,mean_ks,"{""branch"": ""router""}",max,[],[3]
+ExtCRouterKsMean,0.0435693883982943,0.044,csv,window_reconstruction/window_metrics.csv,mean_ks,"{""branch"": ""router""}",mean,[],[3]
+ExtCRouterKsMin,0.0128221412777319,0.013,csv,window_reconstruction/window_metrics.csv,mean_ks,"{""branch"": ""router""}",min,[],[3]
+ExtCZigbeeKsMean,0.11796700636546605,0.118,csv,window_reconstruction/window_metrics.csv,mean_ks,"{""branch"": ""zigbee""}",mean,[],[3]
+ExtFiveTOneGapRone,"[0.08220653133274489, 0.005443165798465141]",\ensuremath{0.0822 \pm 0.0054},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R1_aggregate_gate"", ""task"": ""T1_driver_next""}",,[],"[4, 4]"
+ExtFiveTOneGapRthree,"[0.03628414465793106, 0.006768049213044683]",\ensuremath{0.0363 \pm 0.0068},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R3_governed"", ""task"": ""T1_driver_next""}",,[],"[4, 4]"
+ExtFiveTOneGapRtwo,"[0.1285180030325661, 0.0010444244860333184]",\ensuremath{0.1285 \pm 0.0010},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R2_role_only"", ""task"": ""T1_driver_next""}",,[],"[4, 4]"
+ExtFiveTThreeGapRone,"[0.4288679512261777, 0.02210065408575121]",\ensuremath{0.4289 \pm 0.0221},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R1_aggregate_gate"", ""task"": ""T3_cont_forecast(DENIED)""}",,[],"[4, 4]"
+ExtFiveTThreeGapRtwo,"[0.42961130909238915, 0.0016140090475852728]",\ensuremath{0.4296 \pm 0.0016},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R2_role_only"", ""task"": ""T3_cont_forecast(DENIED)""}",,[],"[4, 4]"
+ExtFiveTTwoGapRone,"[0.27462323408194295, 0.03308047695957805]",\ensuremath{0.2746 \pm 0.0331},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R1_aggregate_gate"", ""task"": ""T2_router_regime""}",,[],"[4, 4]"
+ExtFiveTTwoGapRthree,"[0.40140461654875514, 0.011902273146442138]",\ensuremath{0.4014 \pm 0.0119},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R3_governed"", ""task"": ""T2_router_regime""}",,[],"[4, 4]"
+ExtFiveTTwoGapRtwo,"[0.2711922655911371, 0.04971385537924865]",\ensuremath{0.2712 \pm 0.0497},csv_pair,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R2_role_only"", ""task"": ""T2_router_regime""}",,[],"[4, 4]"
+GenericQfourBlockers,623.0,623,csv,residential_BINARY_V6/reports/cell13_4_q4_pair_summary.csv,q4_pair_publication_blocker,{},sum,[],[0]
+GenericQfourPairs,624.0,624,csv,residential_BINARY_V6/reports/cell13_4_q4_pair_summary.csv,None,{},rows,[],[0]
+MildFanoFatalN,3.0,3,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,fatal,"{""abs_fano_fatal_threshold"": 1.0, ""abs_fano_warn_threshold"": 0.5}",single,[],[0]
+MildFanoFatalThreshold,1.0,1.0,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,abs_fano_fatal_threshold,"{""abs_fano_fatal_threshold"": 1.0, ""abs_fano_warn_threshold"": 0.5}",single,[],[1]
+MildFanoPassN,11.0,11,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,pass,"{""abs_fano_fatal_threshold"": 1.0, ""abs_fano_warn_threshold"": 0.5}",single,[],[0]
+MildFanoWarnThreshold,0.5,0.5,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,abs_fano_warn_threshold,"{""abs_fano_fatal_threshold"": 1.0, ""abs_fano_warn_threshold"": 0.5}",single,[],[1]
+MildFanoWarningN,12.0,12,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,warning,"{""abs_fano_fatal_threshold"": 1.0, ""abs_fano_warn_threshold"": 0.5}",single,[],[0]
+NRows,255540.0,"255{,}540",parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet,,{},,[],[0]
+OTAScientificCols,2.0,2,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_FINAL_NO_Q4.parquet,,{},,[],[0]
+QSixSeqSparseDriverCols,23.0,23,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv,value,"{""diagnostic"": ""release_sparse_driver_columns""}",single,[],[0]
+PriorDriverPublicCols,23.0,23,identity,,,{},,"[""QSixSeqSparseDriverCols""]",[0]
+PublicColsOnDisk,23.0,23,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet,,{},,[],[0]
+QSixSeqSyntheticDuplicateRate,0.9425547996976568,0.942555,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,duplicate_member_rate_among_query_active_windows,"{""comparison"": ""synthetic_vs_real_reference_calibrated""}",single,[],[6]
+QSixSeqRealNullDuplicateRate,0.9611801242236024,0.961180,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,duplicate_member_rate_among_query_active_windows,"{""comparison"": ""real_holdout_vs_real_reference_null""}",single,[],[6]
+QSixSeqDuplicateMinusNull,-0.018625324525945675,-0.018625,subtract,,,{},,"[""QSixSeqSyntheticDuplicateRate"", ""QSixSeqRealNullDuplicateRate""]",[6]
+QSixSeqExactSeenRate,0.06046863189720333,0.060469,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv,value,"{""diagnostic"": ""exact_synthetic_active_windows_seen_in_real_rate""}",single,[],[6]
+QSixSeqRealNullExactSeenRate,0.9347826086956522,0.934783,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,exact_active_windows_seen_in_reference_rate,"{""comparison"": ""real_holdout_vs_real_reference_null""}",single,[],[6]
+QSixSeqExactSeenMinusNull,-0.8743139767984489,-0.874314,subtract,,,{},,"[""QSixSeqExactSeenRate"", ""QSixSeqRealNullExactSeenRate""]",[6]
+QSixSeqRealHoldoutUnionRate,0.3023474178403756,0.302347,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,query_active_union_rate,"{""comparison"": ""real_holdout_vs_real_reference_null""}",single,[],[6]
+QSixSeqRealHoldoutWindows,2130.0,"2{,}130",csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,query_windows,"{""comparison"": ""real_holdout_vs_real_reference_null""}",single,[],[0]
+QSixSeqRealNullRepeatAfterFirstRate,0.9145962732919256,0.914596,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,repeat_after_first_rate_among_query_active_windows,"{""comparison"": ""real_holdout_vs_real_reference_null""}",single,[],[6]
+QSixSeqRealReferenceWindows,2129.0,"2{,}129",csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,reference_windows,"{""comparison"": ""real_holdout_vs_real_reference_null""}",single,[],[0]
+QSixSeqRealUnionRate,0.26602488847147215,0.266025,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv,value,"{""diagnostic"": ""real_active_union_window_rate""}",single,[],[6]
+QSixSeqSyntheticRepeatAfterFirstRate,0.8953136810279667,0.895314,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv,repeat_after_first_rate_among_query_active_windows,"{""comparison"": ""synthetic_vs_real_reference_calibrated""}",single,[],[6]
+QSixSeqRepeatAfterFirstMinusNull,-0.019282592263958898,-0.019283,subtract,,,{},,"[""QSixSeqSyntheticRepeatAfterFirstRate"", ""QSixSeqRealNullRepeatAfterFirstRate""]",[6]
+QSixSeqSyntheticUnionRate,0.6212725992016905,0.621273,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv,value,"{""diagnostic"": ""synthetic_active_union_window_rate""}",single,[],[6]
+QSixSeqSyntheticMinusNullUnion,0.3189251813613149,0.318925,subtract,,,{},,"[""QSixSeqSyntheticUnionRate"", ""QSixSeqRealHoldoutUnionRate""]",[6]
+QSixSeqUnionAbsDiffBlockThreshold,0.25,0.25,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibrated_decision.csv,union_abs_diff_block_threshold,{},single,[],[2]
+QSixSeqUnionRateRatio,2.3353927625772286,2.335393,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv,value,"{""diagnostic"": ""synthetic_to_real_union_rate_ratio""}",single,[],[6]
+QSixSeqUnionRatioBlockThreshold,2.0,2.0,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibrated_decision.csv,union_ratio_block_threshold,{},single,[],[1]
+QSixSeqWindowRows,60.0,60,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv,value,"{""diagnostic"": ""window_rows""}",single,[],[0]
+QSixSeqWindowsTotal,4259.0,"4{,}259",csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv,value,"{""diagnostic"": ""windows_total""}",single,[],[0]
+RoleAmbiguityQueueN,115.0,115,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/role_assignment_ambiguity_review_queue.csv,None,{},rows,[],[0]
+RoleAssignmentRulesN,10.0,10,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/role_assignment_protocol_rules.csv,None,{},rows,[],[0]
+RoleDuplicateOwnerN,0.0,0,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/role_assignment_owner_summary.csv,count,"{""primary_owner"": ""__duplicate_owner_columns__""}",single,[],[0]
+RouterPublicCols,18.0,18,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet,,{},,[],[0]
+SmartStarBinaryAudited,31.0,31,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_binary""}",rows,[],[0]
+SmartStarBinaryCols,33.0,33,csv,smartstar/ledgers/feature_eligibility_train_val_only.csv,None,"{""owner_role"": ""iot_binary""}",rows,[],[0]
+SmartStarBinaryExcludedBeforeTest,2.0,2,subtract,,,{},,"[""SmartStarBinaryCols"", ""SmartStarBinaryAudited""]",[0]
+SmartStarBinaryFatal,2.0,2,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_binary"", ""test_status"": ""fatal""}",rows,[],[0]
+SmartStarBinaryPass,27.0,27,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_binary"", ""test_status"": ""pass""}",rows,[],[0]
+SmartStarBinaryWarning,2.0,2,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_binary"", ""test_status"": ""warning""}",rows,[],[0]
+SmartStarContinuousAudited,64.0,64,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_continuous""}",rows,[],[0]
+SmartStarContinuousCols,64.0,64,csv,smartstar/ledgers/feature_eligibility_train_val_only.csv,None,"{""owner_role"": ""iot_continuous""}",rows,[],[0]
+SmartStarContinuousFatal,49.0,49,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_continuous"", ""test_status"": ""fatal""}",rows,[],[0]
+SmartStarContinuousPass,5.0,5,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_continuous"", ""test_status"": ""pass""}",rows,[],[0]
+SmartStarContinuousWarning,10.0,10,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_continuous"", ""test_status"": ""warning""}",rows,[],[0]
+SmartStarDriverAudited,99.0,99,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_driver""}",rows,[],[0]
+SmartStarDriverCols,99.0,99,csv,smartstar/ledgers/feature_eligibility_train_val_only.csv,None,"{""owner_role"": ""iot_driver""}",rows,[],[0]
+SmartStarDriverFatal,13.0,13,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_driver"", ""test_status"": ""fatal""}",rows,[],[0]
+SmartStarDriverPass,75.0,75,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_driver"", ""test_status"": ""pass""}",rows,[],[0]
+SmartStarDriverWarning,11.0,11,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_driver"", ""test_status"": ""warning""}",rows,[],[0]
+SmartStarEligibleCols,291.0,291,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,{},rows,[],[0]
+SmartStarObsFatal,31.0,31,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_observability"", ""test_status"": ""fatal""}",rows,[],[0]
+SmartStarObsPass,55.0,55,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_observability"", ""test_status"": ""pass""}",rows,[],[0]
+SmartStarObsWarning,11.0,11,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_observability"", ""test_status"": ""warning""}",rows,[],[0]
+SmartStarObservabilityAudited,97.0,97,csv,smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv,None,"{""owner_role"": ""iot_observability""}",rows,[],[0]
+SmartStarObservabilityCols,97.0,97,csv,smartstar/ledgers/feature_eligibility_train_val_only.csv,None,"{""owner_role"": ""iot_observability""}",rows,[],[0]
+SmartStarReleaseKeep,196.0,196,keep_count,smartstar/manifests/q6_public_source_release_manifest.csv,,{},,[],[0]
+SmartStarReleaseExclude,95.0,95,subtract,,,{},,"[""SmartStarEligibleCols"", ""SmartStarReleaseKeep""]",[0]
+SmartStarRows,132480.0,"132{,}480",csv,smartstar/manifests/split_manifest.csv,rows,{},sum,[],[0]
+SmartStarTestRows,26496.0,"26{,}496",csv,smartstar/manifests/split_manifest.csv,rows,"{""split"": ""TEST""}",single,[],[0]
+SmartStarTrainRows,79488.0,"79{,}488",csv,smartstar/manifests/split_manifest.csv,rows,"{""split"": ""TRAIN""}",single,[],[0]
+SmartStarValRows,26496.0,"26{,}496",csv,smartstar/manifests/split_manifest.csv,rows,"{""split"": ""VAL""}",single,[],[0]
+StrictFanoFatalN,6.0,6,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,fatal,"{""abs_fano_fatal_threshold"": 0.5, ""abs_fano_warn_threshold"": 0.1}",single,[],[0]
+StrictFanoFatalThreshold,0.5,0.5,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,abs_fano_fatal_threshold,"{""abs_fano_fatal_threshold"": 0.5, ""abs_fano_warn_threshold"": 0.1}",single,[],[1]
+StrictFanoPassN,6.0,6,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,pass,"{""abs_fano_fatal_threshold"": 0.5, ""abs_fano_warn_threshold"": 0.1}",single,[],[0]
+StrictFanoWarnThreshold,0.1,0.1,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,abs_fano_warn_threshold,"{""abs_fano_fatal_threshold"": 0.5, ""abs_fano_warn_threshold"": 0.1}",single,[],[1]
+StrictFanoWarningN,14.0,14,csv,residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv,warning,"{""abs_fano_fatal_threshold"": 0.5, ""abs_fano_warn_threshold"": 0.1}",single,[],[0]
+TimestampPublicCols,1.0,1,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet,,{},,[],[0]
+ToniotDerivedDrivers,40.0,40,csv,toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv,derived_physical_drivers,{},single,[],[0]
+ToniotEligibleDrivers,30.0,30,csv,toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv,eligible_physical_drivers,{},single,[],[0]
+ToniotPhysicalSourceCols,18.0,18,csv,toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv,physical_source_columns,{},single,[],[0]
+ToniotQfourPairs,50.0,50,csv,toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv,q4_frozen_pairs,{},single,[],[0]
+ToniotQsixExcluded,1.0,1,csv,toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv,q6_excluded_columns,{},single,[],[0]
+ToniotQsixKept,185.0,185,csv,toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv,q6_kept_columns,{},single,[],[0]
+ToniotTestWindows,1406.0,"1{,}406",parquet,toniot/intermediate/toniot_aligned_windows_with_split.parquet,,{},,[],[0]
+ToniotTrainWindows,4214.0,"4{,}214",parquet,toniot/intermediate/toniot_aligned_windows_with_split.parquet,,{},,[],[0]
+ToniotValWindows,1404.0,"1{,}404",parquet,toniot/intermediate/toniot_aligned_windows_with_split.parquet,,{},,[],[0]
+ToniotWindows,7024.0,"7{,}024",parquet,toniot/intermediate/toniot_aligned_windows_with_split.parquet,,{},,[],[0]
+ZWaveScientificCols,0.0,0,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_FINAL_NO_Q4.parquet,,{},,[],[0]
+ZigbeePublicCols,4.0,4,parquet,residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet,,{},,[],[0]
+baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/mean_ks,0.1970016548706531,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_ks,"{""baseline"": ""CTGAN"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/mean_hist_tv,0.0928451042178527,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_hist_tv,"{""baseline"": ""CTGAN"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/mean_wasserstein_norm,0.2865084830182591,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_wasserstein_norm,"{""baseline"": ""CTGAN"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/correlation_mae,0.1661537775893323,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,correlation_mae,"{""baseline"": ""CTGAN"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/c2st_auc,0.6886525625000001,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,c2st_auc,"{""baseline"": ""CTGAN"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/fair_scope_penalty_score,0.1862323164392195,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""CTGAN"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/TabDDPM/protocol_core_tabular/mean_ks,0.1815265512343596,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_ks,"{""baseline"": ""TabDDPM"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/TabDDPM/protocol_core_tabular/mean_hist_tv,0.0672418546799171,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_hist_tv,"{""baseline"": ""TabDDPM"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/TabDDPM/protocol_core_tabular/mean_wasserstein_norm,0.2927606029866248,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_wasserstein_norm,"{""baseline"": ""TabDDPM"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/TabDDPM/protocol_core_tabular/correlation_mae,0.0598921817355196,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,correlation_mae,"{""baseline"": ""TabDDPM"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/TabDDPM/protocol_core_tabular/c2st_auc,0.648966375,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,c2st_auc,"{""baseline"": ""TabDDPM"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/TabDDPM/protocol_core_tabular/fair_scope_penalty_score,0.1500775131272842,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""TabDDPM"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/mean_ks,0.0796921591165723,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_ks,"{""baseline"": ""CTGAN"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/mean_hist_tv,0.0313382895877792,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_hist_tv,"{""baseline"": ""CTGAN"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/mean_wasserstein_norm,0.5734400213979114,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_wasserstein_norm,"{""baseline"": ""CTGAN"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/correlation_mae,0.0869749629775798,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,correlation_mae,"{""baseline"": ""CTGAN"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/c2st_auc,0.8103178124999999,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,c2st_auc,"{""baseline"": ""CTGAN"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/fair_scope_penalty_score,0.2163526491159685,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""CTGAN"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/TabDDPM/public_candidate_core_tabular/mean_ks,0.0707811103721959,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_ks,"{""baseline"": ""TabDDPM"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/TabDDPM/public_candidate_core_tabular/mean_hist_tv,0.0254666256109624,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_hist_tv,"{""baseline"": ""TabDDPM"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/TabDDPM/public_candidate_core_tabular/mean_wasserstein_norm,0.5484662932529034,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_wasserstein_norm,"{""baseline"": ""TabDDPM"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/TabDDPM/public_candidate_core_tabular/correlation_mae,0.069439723079865,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,correlation_mae,"{""baseline"": ""TabDDPM"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/TabDDPM/public_candidate_core_tabular/c2st_auc,0.7932619375000001,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,c2st_auc,"{""baseline"": ""TabDDPM"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/TabDDPM/public_candidate_core_tabular/fair_scope_penalty_score,0.2014831379631854,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""TabDDPM"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/protocol_core_tabular/mean_ks,0.0763533879062698,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_ks,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/protocol_core_tabular/mean_hist_tv,0.0514269732410326,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_hist_tv,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/protocol_core_tabular/mean_wasserstein_norm,0.0683260276199695,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_wasserstein_norm,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/protocol_core_tabular/correlation_mae,0.0128530082968105,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,correlation_mae,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/protocol_core_tabular/c2st_auc,0.665108875,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,c2st_auc,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/protocol_core_tabular/fair_scope_penalty_score,0.0748136544128165,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""protocol_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/public_candidate_core_tabular/mean_ks,0.0274665279448702,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_ks,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/public_candidate_core_tabular/mean_hist_tv,0.0172700968330745,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_hist_tv,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/public_candidate_core_tabular/mean_wasserstein_norm,0.0777270740251709,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,mean_wasserstein_norm,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/public_candidate_core_tabular/correlation_mae,0.0218970302662905,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,correlation_mae,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/public_candidate_core_tabular/c2st_auc,0.66738065625,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,c2st_auc,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+baseline/RoleAwarePipeline/public_candidate_core_tabular/fair_scope_penalty_score,0.0623482770638812,,csv,residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv,fair_scope_penalty_score,"{""baseline"": ""RoleAwarePipeline"", ""scope_id"": ""public_candidate_core_tabular""}",single,[],4
+regression/persistence/mae,12.087604386966271,,csv,protocol_regression/q5_corrected_scores.csv,mae,"{""model"": ""persistence""}",mean,[],6
+regression/persistence/normalized_mae,0.213365552000504,,csv,protocol_regression/q5_corrected_scores.csv,normalized_mae,"{""model"": ""persistence""}",mean,[],6
+regression/fit_mean/mae,25.244190182840324,,csv,protocol_regression/q5_corrected_scores.csv,mae,"{""model"": ""fit_mean""}",mean,[],6
+regression/fit_mean/normalized_mae,0.4456003357435542,,csv,protocol_regression/q5_corrected_scores.csv,normalized_mae,"{""model"": ""fit_mean""}",mean,[],6
+regression/fit_median/mae,13.998191865694118,,csv,protocol_regression/q5_corrected_scores.csv,mae,"{""model"": ""fit_median""}",mean,[],6
+regression/fit_median/normalized_mae,0.2470904770554288,,csv,protocol_regression/q5_corrected_scores.csv,normalized_mae,"{""model"": ""fit_median""}",mean,[],6
+regression/TRTR/mae,21.930489090639526,,csv,protocol_regression/q5_corrected_scores.csv,mae,"{""model"": ""TRTR""}",mean,[],6
+regression/TRTR/normalized_mae,0.3871082110786813,,csv,protocol_regression/q5_corrected_scores.csv,normalized_mae,"{""model"": ""TRTR""}",mean,[],6
+regression/TSTR_reference_assisted/mae,27.14840204734362,,csv,protocol_regression/q5_corrected_scores.csv,mae,"{""model"": ""TSTR_reference_assisted""}",mean,[],6
+regression/TSTR_reference_assisted/normalized_mae,0.4792127210093848,,csv,protocol_regression/q5_corrected_scores.csv,normalized_mae,"{""model"": ""TSTR_reference_assisted""}",mean,[],6
+task/T1_driver_next/R1_aggregate_gate/TRTR,0.8936497159798131,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TRTR,"{""regime"": ""R1_aggregate_gate"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T1_driver_next/R1_aggregate_gate/TSTR,0.8062583452146559,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TSTR,"{""regime"": ""R1_aggregate_gate"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T1_driver_next/R1_aggregate_gate/gap,0.0873913707651572,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R1_aggregate_gate"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T2_router_regime/R1_aggregate_gate/TRTR,0.72505087460237,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TRTR,"{""regime"": ""R1_aggregate_gate"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T2_router_regime/R1_aggregate_gate/TSTR,0.4759633115141898,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TSTR,"{""regime"": ""R1_aggregate_gate"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T2_router_regime/R1_aggregate_gate/gap,0.2490875630881802,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R1_aggregate_gate"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T1_driver_next/R2_role_only/TRTR,0.8886283013103401,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TRTR,"{""regime"": ""R2_role_only"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T1_driver_next/R2_role_only/TSTR,0.761030110666033,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TSTR,"{""regime"": ""R2_role_only"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T1_driver_next/R2_role_only/gap,0.1275981906443071,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R2_role_only"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T2_router_regime/R2_role_only/TRTR,0.727007251008309,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TRTR,"{""regime"": ""R2_role_only"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T2_router_regime/R2_role_only/TSTR,0.5245353330541659,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TSTR,"{""regime"": ""R2_role_only"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T2_router_regime/R2_role_only/gap,0.2024719179541431,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R2_role_only"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T1_driver_next/R3_governed/TRTR,0.8787020220879443,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TRTR,"{""regime"": ""R3_governed"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T1_driver_next/R3_governed/TSTR,0.832957798673818,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TSTR,"{""regime"": ""R3_governed"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T1_driver_next/R3_governed/gap,0.0457442234141263,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R3_governed"", ""seed"": 20260702, ""task"": ""T1_driver_next""}",single,[],6
+task/T2_router_regime/R3_governed/TRTR,0.8714055348628773,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TRTR,"{""regime"": ""R3_governed"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T2_router_regime/R3_governed/TSTR,0.4853549100419486,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,TSTR,"{""regime"": ""R3_governed"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+task/T2_router_regime/R3_governed/gap,0.3860506248209287,,csv,residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv,gap,"{""regime"": ""R3_governed"", ""seed"": 20260702, ""task"": ""T2_router_regime""}",single,[],6
+regression_summary/mean_signed_loss,0.09210450993070352,,json,protocol_regression/summary.json,,{},,[],6
+regression_summary/sd_signed_loss,0.009649445319223795,,json,protocol_regression/summary.json,,{},,[],6
+regression_summary/median_absolute_gap,0.09286083408148038,,json,protocol_regression/summary.json,,{},,[],6
+regression_summary/p95_absolute_gap,0.10292450406267074,,json,protocol_regression/summary.json,,{},,[],6
+figure3/Full real/active_union_rate,0.26602488847147215,,identity,,,{},,"[""QSixSeqRealUnionRate""]",6
+figure3/Real holdout/active_union_rate,0.3023474178403756,,identity,,,{},,"[""QSixSeqRealHoldoutUnionRate""]",6
+figure3/Synthetic/active_union_rate,0.6212725992016905,,identity,,,{},,"[""QSixSeqSyntheticUnionRate""]",6
+figure3/Continuous/Pass,5.0,,identity,,,{},,"[""SmartStarContinuousPass""]",6
+figure3/Continuous/Warning,10.0,,identity,,,{},,"[""SmartStarContinuousWarning""]",6
+figure3/Continuous/Fatal,49.0,,identity,,,{},,"[""SmartStarContinuousFatal""]",6
+figure3/Binary/Pass,27.0,,identity,,,{},,"[""SmartStarBinaryPass""]",6
+figure3/Binary/Warning,2.0,,identity,,,{},,"[""SmartStarBinaryWarning""]",6
+figure3/Binary/Fatal,2.0,,identity,,,{},,"[""SmartStarBinaryFatal""]",6
+figure3/Drivers/Pass,75.0,,identity,,,{},,"[""SmartStarDriverPass""]",6
+figure3/Drivers/Warning,11.0,,identity,,,{},,"[""SmartStarDriverWarning""]",6
+figure3/Drivers/Fatal,13.0,,identity,,,{},,"[""SmartStarDriverFatal""]",6
+figure3/Observability/Pass,55.0,,identity,,,{},,"[""SmartStarObsPass""]",6
+figure3/Observability/Warning,11.0,,identity,,,{},,"[""SmartStarObsWarning""]",6
+figure3/Observability/Fatal,31.0,,identity,,,{},,"[""SmartStarObsFatal""]",6

@@ -1,0 +1,14 @@
+{
+  "dataset": "Synthetic Fusion canonical residential prepared input",
+  "filename": "cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+  "sha256": "a4d7446daba0e46dab2dc21607a99c5a734a5366a6c24018a82ef2ef35fc4bda",
+  "rows": 1277694,
+  "physical_columns": 740,
+  "bytes": 238609923,
+  "download_url": "https://github.com/mma4194/phd-thesis-chapter-3-synthetic-fusion/releases/download/residential-input-v1/cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+  "distribution_status": "Published as a separate GitHub release asset",
+  "license": null,
+  "release_url": "https://github.com/mma4194/phd-thesis-chapter-3-synthetic-fusion/releases/tag/residential-input-v1",
+  "github_asset_id": 598007521,
+  "github_asset_digest": "sha256:a4d7446daba0e46dab2dc21607a99c5a734a5366a6c24018a82ef2ef35fc4bda"
+}

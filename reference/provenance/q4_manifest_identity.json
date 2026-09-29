@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "file": "coupling_manifest_all.csv",
+      "sha256": "e635e47d528db069d131e7983f79f08d1a2338bb9676d0374c0e51d9e2f1e5b4"
+    },
+    {
+      "file": "coupling_manifest_all.parquet",
+      "sha256": "e31223e8d06128261d7f9ca792cb314b2b743ee505ead82c1164fb16bfb2ffa6"
+    },
+    {
+      "file": "coupling_manifest_meta.json",
+      "sha256": "0acc0bd7c0b7f30097f64c9567970e6cc4b59d43b4ec0a0953dd256bd56a737d"
+    },
+    {
+      "file": "coupling_manifest_preview.json",
+      "sha256": "72a44926ca5a74b9dcf79cd5c7bf20ef35518e0b5cc2326d2c9f528dbf9adc38"
+    },
+    {
+      "file": "coupling_manifest_tierA.csv",
+      "sha256": "205840a2459e890150c94390971ade2a8e2e7bf2a9f5e30e79cd5a042cdb3152"
+    },
+    {
+      "file": "coupling_manifest_tierA.parquet",
+      "sha256": "3bd94ed9c5dc4b2f234c7afddb31dfb82b00a6e9c825c15c73bd4d33e5675c1b"
+    },
+    {
+      "file": "coupling_manifest_tierB.csv",
+      "sha256": "3fd97ea60001d800f5ff1ec36034f92ea4f115dbe30668c428c5f8280063331e"
+    },
+    {
+      "file": "coupling_manifest_tierB.parquet",
+      "sha256": "928241e84a454bc30b05137d94036a7a7396d6df8540a60257ec9e3b58d35bc1"
+    }
+  ],
+  "input_type": "frozen_data_derived_train_val_manifest",
+  "upstream_regenerated": false,
+  "validation_status": "PASS",
+  "author_run_id": "20260927T211120_911d03",
+  "verification": "All eight distributed manifest file hashes match the recorded run inputs."
+}

@@ -1,0 +1,4 @@
+split,start_timestamp,end_timestamp,row_start_inclusive,row_end_exclusive,rows,policy
+TRAIN,2012-04-30 09:16:00+00:00,2012-06-24 14:03:00+00:00,0,79488,79488,fit/support only
+VAL,2012-06-24 14:04:00+00:00,2012-07-12 23:39:00+00:00,79488,105984,26496,select/calibrate only
+TEST,2012-07-12 23:40:00+00:00,2012-07-31 09:15:00+00:00,105984,132480,26496,final audit only

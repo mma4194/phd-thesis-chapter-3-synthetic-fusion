@@ -1,0 +1,187 @@
+column,owner_role,role_reason,release_default
+window_start,excluded,time/split control column; not a generated quality target,exclude
+net_conn_state_nan,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_oth,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_rej,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_rsto,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_rstos0,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_rstr,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_rstrh,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_s0,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_s1,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_s2,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_s3,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_sf,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_sh,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_conn_state_shr,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_count_dns_rejected,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_count_ssl_established,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_count_ssl_resumed,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_count_weird_notice,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_flow_count,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_label_attack_count,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_label_attack_rate,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_label_observed_count,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_proto_icmp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_proto_nan,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_proto_tcp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_proto_udp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_-,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_dce_rpc,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_dce_rpc_gssapi_smb_ntlm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_dce_rpc_ntlm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_dhcp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_dns,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ftp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ftp-data,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_gssapi,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_gssapi_dce_rpc_smb,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_gssapi_dce_rpc_smb_ntlm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_gssapi_ntlm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_gssapi_ntlm_smb,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_gssapi_smb,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_gssapi_smb_ntlm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_http,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_imap,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_imap_ssl,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_irc,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_krb_tcp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_nan,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ntlm_dce_rpc,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ntlm_gssapi_smb,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ntlm_smb_dce_rpc_gssapi,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ntlm_smb_gssapi,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_pop3,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_pop3_ssl,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_radius,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_rfb,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_smb,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_smb_dce_rpc_gssapi_ntlm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_smb_gssapi,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_smb_gssapi_ntlm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_smb_ntlm_gssapi,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_smtp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_smtp_ssl,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_socks,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ssh,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ssl,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ssl_imap,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_service_ssl_smtp,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_dns_qclass,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_dns_qtype,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_dns_rcode,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_dst_bytes,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_dst_ip_bytes,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_dst_pkts,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_duration,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_http_request_body_len,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_http_response_body_len,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_http_status_code,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_http_trans_depth,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_missed_bytes,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_src_bytes,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_src_ip_bytes,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_sum_src_pkts,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_backdoor,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_ddos,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_dos,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_injection,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_mitm,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_nan,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_normal,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_password,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_ransomware,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_scanning,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+net_type_xss,protocol,network/protocol aggregate derived from TON-IoT network stream,candidate_warning_governed
+driver_iot_fridge_attack_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_label_observed_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_type_backdoor,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_type_ddos,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_type_injection,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_type_normal,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_type_password,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_type_ransomware,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_fridge_type_xss,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+iot_cat_iot_fridge_temp_condition_high,iot_binary,IoT binary/state/category occupancy aggregate,candidate_warning_governed
+iot_cat_iot_fridge_temp_condition_low,iot_binary,IoT binary/state/category occupancy aggregate,candidate_warning_governed
+obs_iot_fridge_record_count,iot_observability,record-count/reporting-process aggregate,candidate_warning_governed
+iot_cont_iot_fridge_fridge_temperature_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+driver_iot_gps_tracker_attack_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_label_observed_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_backdoor,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_ddos,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_injection,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_normal,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_password,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_ransomware,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_scanning,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_gps_tracker_type_xss,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+obs_iot_gps_tracker_record_count,iot_observability,record-count/reporting-process aggregate,candidate_warning_governed
+iot_cont_iot_gps_tracker_latitude_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+iot_cont_iot_gps_tracker_longitude_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+driver_iot_garage_door_attack_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_label_observed_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_backdoor,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_ddos,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_injection,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_normal,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_password,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_ransomware,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_scanning,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_garage_door_type_xss,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+obs_iot_garage_door_record_count,iot_observability,record-count/reporting-process aggregate,candidate_warning_governed
+iot_binary_iot_garage_door_door_state_active_rate,iot_binary,IoT binary/state/category occupancy aggregate,candidate_warning_governed
+iot_binary_iot_garage_door_sphone_signal_active_rate,iot_binary,IoT binary/state/category occupancy aggregate,candidate_warning_governed
+obs_iot_modbus_record_count,iot_observability,record-count/reporting-process aggregate,candidate_warning_governed
+driver_iot_modbus_attack_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_modbus_label_observed_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_modbus_type_backdoor,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_modbus_type_injection,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_modbus_type_normal,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_modbus_type_password,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_modbus_type_scanning,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_modbus_type_xss,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+iot_cont_iot_modbus_fc1_read_input_register_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+iot_cont_iot_modbus_fc2_read_discrete_value_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+iot_cont_iot_modbus_fc3_read_holding_register_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+iot_cont_iot_modbus_fc4_read_coil_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+obs_iot_motion_light_record_count,iot_observability,record-count/reporting-process aggregate,candidate_warning_governed
+driver_iot_motion_light_attack_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_label_observed_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_backdoor,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_ddos,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_injection,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_normal,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_password,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_ransomware,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_scanning,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_motion_light_type_xss,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+iot_binary_iot_motion_light_motion_status_active_rate,iot_binary,IoT binary/state/category occupancy aggregate,candidate_warning_governed
+iot_binary_iot_motion_light_light_status_active_rate,iot_binary,IoT binary/state/category occupancy aggregate,candidate_warning_governed
+obs_iot_thermostat_record_count,iot_observability,record-count/reporting-process aggregate,candidate_warning_governed
+driver_iot_thermostat_attack_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_label_observed_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_type_backdoor,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_type_injection,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_type_normal,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_type_password,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_type_ransomware,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_type_scanning,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_thermostat_type_xss,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+iot_cont_iot_thermostat_current_temperature_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+iot_binary_iot_thermostat_thermostat_status_active_rate,iot_binary,IoT binary/state/category occupancy aggregate,candidate_warning_governed
+driver_iot_weather_attack_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_label_observed_count,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_backdoor,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_ddos,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_injection,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_normal,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_password,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_ransomware,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_scanning,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+driver_iot_weather_type_xss,iot_driver,attack/type/event-driver aggregate derived from TON-IoT IoT label/type stream,candidate_warning_governed
+obs_iot_weather_record_count,iot_observability,record-count/reporting-process aggregate,candidate_warning_governed
+iot_cont_iot_weather_humidity_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+iot_cont_iot_weather_pressure_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+iot_cont_iot_weather_temperature_mean,iot_continuous,numeric IoT telemetry value aggregate,candidate_warning_governed
+split,excluded,time/split control column; not a generated quality target,exclude

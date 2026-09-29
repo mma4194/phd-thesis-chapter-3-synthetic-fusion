@@ -1,0 +1,7 @@
+# Preserve checksum-identified research inputs exactly, including CSV line endings.
+* -text
+*.pdf binary
+*.png binary
+*.gz binary
+*.zip binary
+*.parquet binary

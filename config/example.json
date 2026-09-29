@@ -1,0 +1,8 @@
+{
+  "residential_parquet": "/absolute/path/to/cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+  "smartstar_root": "/absolute/path/to/Smart_Star_Dataset/homeA",
+  "toniot_root": "/absolute/path/to/TON_IoT",
+  "output_parent": "/scratch/your-account/Synthetic_Fusion_Chapter3/runs",
+  "n_jobs": 1,
+  "public_timeout_seconds": 0
+}

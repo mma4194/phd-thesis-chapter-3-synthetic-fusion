@@ -1,0 +1,231 @@
+source,stage,executed_by_master,heading,lines
+source_cells/inspection/003.py,inspection,True,,32
+source_cells/inspection/005.py,inspection,True,,5
+source_cells/inspection/007.py,inspection,True,Inspection utilities: no imports or execution of the original synthesis notebook.,76
+source_cells/inspection/008.py,inspection,True,Scalar integer/float/boolean only; decimal object arrays remain separately typed.,122
+source_cells/inspection/009.py,inspection,True,,42
+source_cells/inspection/010.py,inspection,True,,94
+source_cells/inspection/011.py,inspection,True,,42
+source_cells/inspection/013.py,inspection,True,,13
+source_cells/inspection/015.py,inspection,True,Save the documentary source trace beside the sampled evidence.,6
+source_cells/inspection/017.py,inspection,True,,15
+source_cells/postrun/003.py,postrun,True,THESIS.REV.0 — path resolver and shared helpers,140
+source_cells/postrun/004.py,postrun,True,THESIS.REV.1 — window-vs-pooled reconciliation for EXT.C,133
+source_cells/postrun/005.py,postrun,True,"THESIS.REV.2 — baseline split/budget facts: remove the ""if recorded in ledger"" hedge",174
+source_cells/postrun/006.py,postrun,True,THESIS.REV.3 — Smart* accounting closure and package-index rows,127
+source_cells/postrun/007.py,postrun,True,THESIS.REV.4 — optional Q6 sparse-driver copy/replay/routine-risk screening,134
+source_cells/postrun/008.py,postrun,True,THESIS.REV.5 — patched package indexes/checksums + anonymity grep,198
+source_cells/residential/001.py,residential,True,Cell 1: imports + config + determinism + canonical contract,931
+source_cells/residential/002.py,residential,True,Prefer a final clean artifact root. It must still contain BINARY_V6 so existing guards remain compatible.,100
+source_cells/residential/003.py,residential,True,,82
+source_cells/residential/004.py,residential,True,CELL 2 — Core helpers (CPS unified dataset hardened) — v5,1100
+source_cells/residential/005.py,residential,True,CELL 3 — Load + canonical time + fixed split + abs-time drop,762
+source_cells/residential/006.py,residential,True,CELL 3.PERSIST — persist chronological splits for EXT audits (run once),5
+source_cells/residential/007.py,residential,True,CELL 4 — taxonomy / obs / driver-contract — v5,693
+source_cells/residential/008.py,residential,True,CELL 4.4 — Clean taxonomy split (DRIVER vs MASK vs PROTO_VALUE) — v6,543
+source_cells/residential/009.py,residential,True,CELL 4.5 — IoT feature grouping / role ownership contract — v13,1456
+source_cells/residential/010.py,residential,True,HOTFIX CELL 4.6 — IoT generator helper functions — v4,571
+source_cells/residential/011.py,residential,True,CELL 5 — tiers / protocol contract / logical obs / regimes / TOD — v9,683
+source_cells/residential/012.py,residential,True,CELL 6 — Protocol generator role contract,1298
+source_cells/residential/013.py,residential,True,CELL 6.5 — IoT group contract loader — v8,915
+source_cells/residential/014.py,residential,True,CORE DDPM HELPER — Cosine beta schedule,140
+source_cells/residential/015.py,residential,True,CORE CLASS — SequenceDataset,509
+source_cells/residential/016.py,residential,True,MANIFEST — SequenceDataset helper contract,48
+source_cells/residential/017.py,residential,True,CORE DDPM HELPER — Exponential Moving Average (EMA),257
+source_cells/residential/018.py,residential,True,CORE DDPM WRAPPER — Candidate generator only,1241
+source_cells/residential/019.py,residential,True,CELL 7 — Shared conditioning contract for protocol candidate generators,1226
+source_cells/residential/020.py,residential,True,CELL 8 — DDPM candidate generator training — v18-THESIS,3023
+source_cells/residential/021.py,residential,True,CELL 8.4 — DDPM runtime/artifact sanity checks — v15-THESIS,1505
+source_cells/residential/022.py,residential,True,ALIGNMENT GUARD — split/regime/TOD/conditioning alignment — v3-THESIS,434
+source_cells/residential/023.py,residential,True,DDPM CONTRACT BRIDGE — post Cell 8.4 compatibility alias,92
+source_cells/residential/024.py,residential,True,PRE-CELL-9 MASK POLICY CONTRACT — tier-specific protocol mask targets — v5-THESIS,387
+source_cells/residential/025.py,residential,True,CELL 9 — Tier masks + drivers — v11-THESIS,1476
+source_cells/residential/026.py,residential,True,CELL 10.1 — Generator portfolio contract + A0/A1 baselines,1111
+source_cells/residential/027.py,residential,True,CELL 10.2 — DDPM portfolio availability registration — v2-THESIS,246
+source_cells/residential/028.py,residential,True,CELL 10.3 — Negative Binomial / Poisson-Gamma count candidate — v2-THESIS,508
+source_cells/residential/029.py,residential,True,CELL 10.4 — Markov / semi-Markov sparse event candidate — v2-THESIS,568
+source_cells/residential/030.py,residential,True,CELL 10.4b — OTA burst/run-length active-window candidate — v2-THESIS,595
+source_cells/residential/031.py,residential,True,CELL 10.4c — OTA paired block-intensity replay candidate — v2-THESIS,614
+source_cells/residential/032.py,residential,True,CELL 10.4d — OTA block-intensity replay variant portfolio — v2-THESIS,874
+source_cells/residential/033.py,residential,True,CELL 10.4e — OTA packet-rate regime candidate portfolio — v2-THESIS,1044
+source_cells/residential/034.py,residential,True,CELL 10.4r — Router service-aware multivariate block replay candidate — v2-THESIS,1051
+source_cells/residential/035.py,residential,True,CELL 10.4s — Router support/quantile candidate portfolio — v2-THESIS,916
+source_cells/residential/036.py,residential,True,CELL 10.5 — Gaussian Copula continuous-correlation candidate — v2-THESIS,604
+source_cells/residential/037.py,residential,True,CELL 10.6 — CTGAN / TVAE optional tabular candidate — v2-THESIS,583
+source_cells/residential/038.py,residential,True,CELL 10.7 — TimeGAN / sequence-GAN optional backend registration — v2-THESIS,189
+source_cells/residential/039.py,residential,True,CELL 10.8 — VAL-only generator portfolio comparison + selection,2824
+source_cells/residential/040.py,residential,True,,156
+source_cells/residential/041.py,residential,True,CELL 10.9 — Materialize controlled protocol variants — v2.1-THESIS,893
+source_cells/residential/042.py,residential,True,PRE-CELL11 — A0/A1/A2 protocol variant runtime guard — v4.1-THESIS,562
+source_cells/residential/043.py,residential,True,CELL 11 — Final A0/A1/A2 protocol variant QA + publication,2185
+source_cells/residential/044.py,residential,True,CELL 11.x — STUDY-THESIS stale TEST-derived artifact preflight v2,387
+source_cells/residential/045.py,residential,True,CELL 12.a — IoT synthesis foundation,3118
+source_cells/residential/046.py,residential,True,,44
+source_cells/residential/047.py,residential,True,CELL 12.b — IoT synthesis scaffold stage — v27.1-THESIS,2765
+source_cells/residential/048.py,residential,True,CLEANUP AFTER CELL 12.b v27.1.1,68
+source_cells/residential/049.py,residential,True,CELL 12.c.0 — IoT value synthesis foundation/contract,2055
+source_cells/residential/050.py,residential,True,CELL 12.c.1 — IoT value A1 VAL backbone materialization,1205
+source_cells/residential/052.py,residential,True,FRESH CONTINUOUS CANDIDATE CONFIGURATION,30
+source_cells/residential/053.py,residential,True,CELL 12.c.2 — Clean-slate non-A1 IoT continuous VAL candidates,24188
+source_cells/residential/054.py,residential,True,CELL Q6.0x — External quarantine for superseded continuous selector-policy artifacts,221
+source_cells/residential/055.py,residential,True,CLEANUP BEFORE RERUNNING CELL 12.c.3,28
+source_cells/residential/056.py,residential,True,CELL 12.c.3R — TRAIN/VAL-only continuous selector replacement,509
+source_cells/residential/057.py,residential,True,CELL 12.c.4R — TRAIN/VAL-cache continuous TEST-length materialization,243
+source_cells/residential/058.py,residential,True,CELL 12.c.5R — Continuous final value enforcement replacement,182
+source_cells/residential/059.py,residential,True,CELL 12.c.6R — Continuous terminal TEST QA report-only replacement,356
+source_cells/residential/060.py,residential,True,CELL 12.d.0 - Binary IoT shared utilities/contracts,1526
+source_cells/residential/061.py,residential,True,,410
+source_cells/residential/062.py,residential,True,,214
+source_cells/residential/063.py,residential,True,,151
+source_cells/residential/064.py,residential,True,,60
+source_cells/residential/065.py,residential,True,,84
+source_cells/residential/066.py,residential,True,,225
+source_cells/residential/067.py,residential,True,,64
+source_cells/residential/068.py,residential,True,"CELL 12.d.V6.7 — Binary V6 decision: preferred development candidate, freeze",91
+source_cells/residential/069.py,residential,True,CELL 12.e.0 - Driver contracts,1294
+source_cells/residential/070.py,residential,True,CELL 12.e.1 - Driver baseline,936
+source_cells/residential/071.py,residential,True,CELL 12.e.2 - Driver VAL candidates,1598
+source_cells/residential/072.py,residential,True,CELL 12.e.3 - Driver VAL selection,959
+source_cells/residential/073.py,residential,True,CELL 12.e.4 - Driver TEST materialization,1243
+source_cells/residential/074.py,residential,True,CELL 12.e.5 - Driver final enforcement,804
+source_cells/residential/075.py,residential,True,CELL 12.e.6 - Driver TEST QA only,973
+source_cells/residential/076.py,residential,True,CELL 12.e.6R - Corrected sparse-driver release ledger,293
+source_cells/residential/077.py,residential,True,CHECK Binary V6 outputs before moving to mask branch,33
+source_cells/residential/078.py,residential,True,CELL Q3.PRE.R — Readiness guard after continuous 12.c replacement,120
+source_cells/residential/079.py,residential,True,CELL 12.f.0 - IoT observability/mask contracts,1222
+source_cells/residential/080.py,residential,True,CELL 12.f.1 - Observability mask baseline,929
+source_cells/residential/081.py,residential,True,CELL 12.f.2 - Observability mask model candidates,2190
+source_cells/residential/083.py,residential,True,CELL 12.f.V5.0 — Observability-mask V5 semantic setup,432
+source_cells/residential/084.py,residential,True,CELL 12.f.V5.1 — Observability-mask V5 TRAIN→VAL backtest selector,404
+source_cells/residential/085.py,residential,True,CELL 12.f.V5.2 — Observability-mask V5 TEST-length materialization,121
+source_cells/residential/086.py,residential,True,CELL 12.f.V5.3 — Observability-mask V5 final enforcement + Q3 readiness,112
+source_cells/residential/087.py,residential,True,CELL 12.f.V5.4 — Observability-mask V5 terminal TEST QA only,187
+source_cells/residential/088.py,residential,True,CELL Q3.POST.V5 — Observability-mask V5 post-QA attestation,108
+source_cells/residential/090.py,residential,True,CELL Q6.0 — Active branch registry and supersession ledger,172
+source_cells/residential/091.py,residential,True,CELL 12.f.V5.5R — Q3 V5 -> Cell 12.g legacy-contract compatibility handoff,377
+source_cells/residential/092.py,residential,True,CELL 12.c.R.7 — 12.c.R -> Cell 12.g continuous-values compatibility handoff,475
+source_cells/residential/093.py,residential,True,CELL 12.f.V5.6 — Q3 V5 observability mask parquet alias for Cell 12.g,275
+source_cells/residential/094.py,residential,True,CELL 12.c.R.8 — Apply continuous-value observability mask before Cell 12.g assembly,337
+source_cells/residential/096.py,residential,True,CELL 12.g - Full IoT namespace assembly,1224
+source_cells/residential/098.py,residential,True,CELL 13.0 - Q4 cross-modal coupling input contract,813
+source_cells/residential/099.py,residential,True,CELL 13.1 - Q4 IoT-driver-to-network event-triggered average QA,780
+source_cells/residential/100.py,residential,True,CELL 13.2 - Q4 lag distribution and response-window QA,853
+source_cells/residential/101.py,residential,True,CELL 13.3 - Q4 cross-correlation preservation by protocol tier,872
+source_cells/residential/102.py,residential,True,CELL 13.4 - Q4 cross-modal coupling summary and blockers,878
+source_cells/residential/104.py,residential,True,CELL 13.5 - Manifest-informed Zigbee Q4 coupling registry,628
+source_cells/residential/105.py,residential,True,CELL 13.6 - Manifest-informed Zigbee Q4 QA,896
+source_cells/residential/106.py,residential,True,CELL 14.0 - TRAIN/VAL-only Zigbee coupling profile builder,942
+source_cells/residential/107.py,residential,True,CELL 14.1 - Coupling-conditioned Zigbee protocol materialization,1038
+source_cells/residential/108.py,residential,True,CELL 14.2 - Reassemble coupling-conditioned CPS candidate,700
+source_cells/residential/109.py,residential,True,CELL 14.3 - Coupling-conditioned Q4 re-evaluation,1099
+source_cells/residential/110.py,residential,True,CELL 14.4 - Two-stage TRAIN/VAL IoT↔protocol coupling discovery and tiering,1512
+source_cells/residential/111.py,residential,True,"CELL Q4.0R — VAL-frozen Q4 publication pair registry, fail-closed/no-claim safe",355
+source_cells/residential/112.py,residential,True,CELL 14.5 - Coupling manifest consolidation and repair eligibility policy,963
+source_cells/residential/113.py,residential,True,"CELL Q4.1R — VAL-only Q4 acceptance gate, empty-registry safe",209
+source_cells/residential/114.py,residential,True,CELL 14.6.PRE — Protocol base path compatibility for report-only A0 Q4 materialization,45
+source_cells/residential/115.py,residential,True,CELL 14.6R0 — TRAIN/VAL-only A0 policy grid search and freeze,551
+source_cells/residential/116.py,residential,True,CELL 14.6 - A0 Zigbee-safe expanded coupling materialization + QA,1710
+source_cells/residential/117.py,residential,True,CELL 14.6R1 — Frozen A0 terminal TEST evidence gate,320
+source_cells/residential/118.py,residential,True,CELL 14.6a - A0 fatal blocker forensic diagnostic,423
+source_cells/residential/119.py,residential,True,CELL 14.6b - A0 TRAIN/VAL evidence vs TEST-QA outcome audit,394
+source_cells/residential/120.py,residential,True,CELL 14.6D0.PRE - Discover available Q4/A0 diagnostic inputs,103
+source_cells/residential/121.py,residential,True,CELL 14.6D0 - Q4 A0 Zigbee blocker root-cause diagnostic,632
+source_cells/residential/122.py,residential,True,CELL 14.6R2 - VAL-feasible A0 Zigbee subset gate,265
+source_cells/residential/123.py,residential,True,CELL 14.6R3 - Q4 A0 scope arbitration table for paper,149
+source_cells/residential/124.py,residential,True,CELL 14.7 - Q4 no-promotion governance ledger,268
+source_cells/residential/125.py,residential,True,CELL 14.8 - A1 and router evidence audit before expansion,992
+source_cells/residential/126.py,residential,True,CELL 14.9 - A1a expansion deferral ledger,272
+source_cells/residential/127.py,residential,True,CELL 14.10 - Final Q4 no-promotion decision ledger,552
+source_cells/residential/128.py,residential,True,CELL 14.11 - Final Q4 evidence table and paper-ready no-promotion scope audit,777
+source_cells/residential/129.py,residential,True,CELL 14.12 — Final Q4 no-promotion freshness / stale-evidence audit after protocol 11b,712
+source_cells/residential/130.py,residential,True,CELL 15.0 - Q6 privacy input preparation by role group,912
+source_cells/residential/131.py,residential,True,CELL 15.1 - Q6 no-copy window audit,845
+source_cells/residential/132.py,residential,True,CELL 15.1a - Q6 no-copy blocker forensic diagnostic,411
+source_cells/residential/133.py,residential,True,CELL 15.2 - Q6 DCR / NNDR role-specific privacy audit,1217
+source_cells/residential/134.py,residential,True,CELL 15.2a - Q6 DCR/NNDR blocker forensic diagnostic,448
+source_cells/residential/135.py,residential,True,CELL 15.3 - Q6 MIA audit: random split + temporal split,1144
+source_cells/residential/136.py,residential,True,CELL 15.4 - Q6 privacy summary and release-safety manifest,1023
+source_cells/residential/137.py,residential,True,CELL 15.5 - Q6 mitigation planning audit,796
+source_cells/residential/138.py,residential,True,CELL Q6.ROUTER.RELEASE_POLICY.V1 — predeclared router release rule before Cell 15.6,386
+source_cells/residential/139.py,residential,True,CELL 15.6 - Q6 mitigated public-release candidate builder,869
+source_cells/residential/140.py,residential,True,,46
+source_cells/residential/141.py,residential,True,CELL 15.4b - Q6 public-candidate policy-split summary,735
+source_cells/residential/142.py,residential,True,CELL 16.0 - A0/A1/A2 decomposition input contract,1046
+source_cells/residential/143.py,residential,True,CELL 16.1 - Q1 marginal decomposition,972
+source_cells/residential/144.py,residential,True,CELL 16.2 - Q2 temporal decomposition,1041
+source_cells/residential/145.py,residential,True,CELL 16.3 - Q3 observability decomposition,1079
+source_cells/residential/146.py,residential,True,CELL 16.4 - Q4 coupling decomposition,915
+source_cells/residential/147.py,residential,True,CELL 16.5 - A0/A1/A2 final decomposition report,938
+source_cells/residential/148.py,residential,True,CELL 17.0 - External baseline comparable target scopes,802
+source_cells/residential/149.py,residential,True,"CELL 17.1R — CTGAN external baseline, kernel-safe subprocess version",951
+source_cells/residential/150.py,residential,True,CELL 17.2 - TabDDPM external baseline,961
+source_cells/residential/151.py,residential,True,CELL 17.3 - TimeGAN external baseline,1119
+source_cells/residential/152.py,residential,True,CELL 17.4 - External baseline metric computation,1332
+source_cells/residential/153.py,residential,True,,30
+source_cells/residential/154.py,residential,True,CELL 17.5 - External baseline fairness and limitation report,982
+source_cells/residential/155.py,residential,True,CELL 17.6 — Baseline fairness claim sanitizer,577
+source_cells/residential/156.py,residential,True,CELL 18.0a - Master results ledger for paper,770
+source_cells/residential/157.py,residential,True,CELL 18.0 - Claim registry,977
+source_cells/residential/158.py,residential,True,CELL 18.1 - Claim-to-evidence traceability linker,590
+source_cells/residential/159.py,residential,True,CELL 18.2 - Multi-seed stability and decision-grade labels,718
+source_cells/residential/160.py,residential,True,CELL 18.3 - Final STUDY-THESIS publication readiness dashboard,606
+source_cells/residential/161.py,residential,True,CELL 19.0 - Full CPS comprehensive evaluation input contract,786
+source_cells/residential/162.py,residential,True,CELL 19.1 - Full CPS consolidated metric evaluation,862
+source_cells/residential/163.py,residential,True,CELL 20.1 — Final non-continuous publication evidence ledger,892
+source_cells/residential/164.py,residential,True,CELL 20.3 — STUDY-THESIS artifact package README and index builder,745
+source_cells/residential/165.py,residential,True,CELL PAPER.READY.TABLES.V1 — first-class paper tables from current notebook artifacts,488
+source_cells/residential/166.py,residential,True,CELL Q6.0x.FINAL — External quarantine for superseded continuous selector-policy artifacts,222
+source_cells/residential/167.py,residential,True,CELL Q6.1 — Active artifact hygiene and superseded-branch guard,140
+source_cells/residential/168.py,residential,True,CELL Q6.2 — Reproducibility and checksum manifest,99
+source_cells/residential/169.py,residential,True,CELL Q6.3 — Final STUDY-THESIS governance gate,87
+source_cells/residential/170.py,residential,True,CELL Q6.4 — Reviewer README addendum for active branch evidence,69
+source_cells/residential/171.py,residential,True,CELL FINAL.Q6 — Artifact-focused pre-submission hygiene guard,45
+source_cells/residential/172.py,residential,True,,55
+source_cells/residential/173.py,residential,True,"CELL EXT.0.a — Environment, paths, fail-closed contract (v3)",114
+source_cells/residential/174.py,residential,True,"CELL EXT.0.b — Shared loaders, role helpers, and split-boundary guard",90
+source_cells/residential/175.py,residential,True,"CELL EXT.A.1 — Build regime-scoped feature sets from disk artifacts (fail-closed, v2)",74
+source_cells/residential/176.py,residential,True,CELL EXT.A.2 — Task construction (TRAIN-defined labels only; TEST untouched for definitions),39
+source_cells/residential/177.py,residential,True,"CELL EXT.A.3 — Run TRTR vs TSTR across regimes (seed-pinned, fixed models)",56
+source_cells/residential/178.py,residential,True,CELL EXT.A.5SEED — Experiment A replication over 5 seeds (rule frozen; variance reported),62
+source_cells/residential/179.py,residential,True,CELL EXT.A.MF — Model-family sensitivity for the governance consequence study,83
+source_cells/residential/180.py,residential,True,CELL EXT.A.T2P — T2': router-regime label with LABEL-DEFINING CHANNELS REMOVED from features,37
+source_cells/residential/181.py,residential,True,CELL EXT.A.T2P.DIAG — label base-rate and cross-period stability check,6
+source_cells/residential/182.py,residential,True,CELL EXT.A.T1BASE — T1 label base-rate audit (same standard applied to the surviving task),9
+source_cells/residential/183.py,residential,True,CELL EXT.DRV.UNION — Diagnose the 2.4x window-union inflation: rates vs clustering,23
+source_cells/residential/184.py,residential,True,"CELL EXT.DRV.GATE — corrected driver-gate summary, no legacy release claim",5
+source_cells/residential/185.py,residential,True,CELL EXT.DRV.GATE2 — threshold geometry audit for corrected sparse-driver gates,7
+source_cells/residential/186.py,residential,True,CELL EXT.DRV.GATE3 — legacy metric-degeneracy check retained as audit evidence,9
+source_cells/residential/187.py,residential,True,CELL EXT.DRV.ROOT — superseded source-introspection diagnostic,2
+source_cells/residential/188.py,residential,True,CELL EXT.DRV.Q2TRUE — corrected burst and windowed-Fano metrics from authoritative ledger,4
+source_cells/residential/189.py,residential,True,CELL EXT.DRV.ROOT2 — final corrected-driver artifact pointer,3
+source_cells/residential/190.py,residential,True,CELL EXT.DRV.FAM — generator families for corrected-fatal drivers,12
+source_cells/residential/191.py,residential,True,CELL EXT.DRV.FINAL — corrected sparse-driver release result for manuscript,5
+source_cells/residential/192.py,residential,True,CELL EXT.DRV.REGRADE2 — final corrected ledger already materialized pre-Q6,6
+source_cells/residential/193.py,residential,True,"CELL EXT.B.1 — Gate battery v2 (KS + FIXED blocked C2ST; fail-loud, no silent NaN)",54
+source_cells/residential/194.py,residential,True,"CELL EXT.B.2 — Cross-generator audit v2: ALL generators, per-scope, pipeline on same scopes",38
+source_cells/residential/195.py,residential,True,CELL EXT.C.1v3 — Window dispersion v3: METRIC-MATCHED per-column KS + per-column C2ST,39
+source_cells/residential/196.py,residential,True,CELL EXT.C.2 — Instrument agreement: pipeline per-target C2ST vs EXT per-column C2ST,27
+source_cells/residential/197.py,residential,True,CELL EXT.Q4H.1 — Untouched-holdout availability check + frozen 6-pair rescore,51
+source_cells/residential/198.py,residential,True,CELL EXT.FIG.0 — Figure infrastructure,15
+source_cells/residential/199.py,residential,True,CELL EXT.FIG.2v3 — corrected sparse-driver evidence-to-claim flow,23
+source_cells/residential/200.py,residential,True,CELL EXT.FIG.3v3 — corrected branch × dimension readiness heatmap,30
+source_cells/residential/201.py,residential,True,CELL EXT.FIG.4 — Fig.4: Q4 event-triggered alignment profiles (real vs synthetic),25
+source_cells/residential/202.py,residential,True,CELL EXT.FIG.5 — Fig.5: Continuous separability ECDF with tier cutoffs,19
+source_cells/residential/203.py,residential,True,CELL EXT.FIG.6v3 — release funnel rebuilt from actual corrected Q6 registry,41
+source_cells/residential/204.py,residential,True,CELL EXT.OUT.1 — Manuscript-ready tables + reproducibility manifest for the EXT run,19
+source_cells/residential/205.py,residential,True,"FIG1-AUDIT v3 — fitted-family audit from locked selection registries, no hard-coded notebook path",20
+source_cells/residential/206.py,residential,True,CANONICAL-RUN v2 — write submission-run manifest for the CURRENT run root,35
+source_cells/residential/207.py,residential,True,FIG1-TRUTH — authoritative fitted-family counts from the locked selection registries,25
+source_cells/selection/002.py,selection,True,STRONG.0 — User configuration and policy switches,49
+source_cells/selection/003.py,selection,True,"STRONG.1 — Imports, path resolver, and shared artifact helpers",221
+source_cells/selection/004.py,selection,True,STRONG.2 — Locate canonical artifacts and fail-closed path audit,40
+source_cells/selection/005.py,selection,True,STRONG.3 — Q6 sparse-driver sequence-risk gate and driver-contribution audit,198
+source_cells/selection/006.py,selection,True,STRONG.3N — Q6 sparse-driver sequence-risk null calibration,607
+source_cells/selection/007.py,selection,True,STRONG.4 — Materialize conservative public candidate and release composition by policy,265
+source_cells/selection/008.py,selection,True,"STRONG.5 — RQ1 role-assignment protocol, ambiguity queue, and ownership audit",117
+source_cells/selection/009.py,selection,True,STRONG.6 — Continuous C2ST primary-instrument reconciliation and Table-13 replacement values,83
+source_cells/selection/010.py,selection,True,STRONG.7 — Baseline-fairness claim downgrade / fixed-budget diagnostic framing,78
+source_cells/selection/011.py,selection,True,STRONG.8 — Q5 consequence evidence: downgrade existing 5-seed claim and optional extended-seed rerun,176
+source_cells/selection/012.py,selection,True,STRONG.9 — Smart* transfer claim scope: procedural transfer only,37
+source_cells/selection/013.py,selection,True,"STRONG.10 — Strong-fix manifest, package-index merge, and runbook",116
+source_cells/selection/016_fixed_policy.py,selection,True,Reproduction adapter: fixed policy selection; original source retained in 016.py.,106

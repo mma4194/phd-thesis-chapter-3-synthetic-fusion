@@ -1,0 +1,76 @@
+{
+  "validator_version": "v4.1_unified_train_val_delta_replication_manifest_strict",
+  "parquet_path": "cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+  "sec_col": "sec",
+  "split_mode": "val",
+  "rows": 255538,
+  "cols": 740,
+  "full_start_sec": 1750446300,
+  "full_end_sec": 1751723993,
+  "active_start_sec": 1751212916,
+  "active_end_sec": 1751468453,
+  "config": {
+    "parquet_path": "cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+    "out_dir": "cps_synth_v4_4_7_32_FULL_COUPLED",
+    "train_end_idx": 766616,
+    "val_end_idx": 1022154,
+    "run_splits": [
+      "train",
+      "val"
+    ],
+    "expected_start_sec": null,
+    "expected_end_sec": null,
+    "min_anchor_events": 40,
+    "max_anchor_events": 20000,
+    "top_k_anchors_per_split": 25,
+    "lag_min": -30,
+    "lag_max": 30,
+    "pre_window": [
+      -30,
+      -1
+    ],
+    "immediate_window": [
+      0,
+      5
+    ],
+    "delayed_window": [
+      6,
+      30
+    ],
+    "outer_left": [
+      -30,
+      -6
+    ],
+    "outer_right": [
+      6,
+      30
+    ],
+    "n_null_baselines": 16,
+    "min_modality_coverage_near_anchor": 0.2,
+    "min_nonzero_signal_fraction_near_centers": 0.01,
+    "suggestive_z_immediate": 2.0,
+    "strong_z_immediate": 3.0,
+    "strong_z_sharpness": 2.0,
+    "min_peak_lag_for_immediate": 0,
+    "max_peak_lag_for_immediate": 5,
+    "include_semantic_event_flags_as_signals": false,
+    "random_seed": 1337
+  },
+  "n_results": 117,
+  "n_anchors": 9,
+  "signals": [
+    "ota24__bytes_total",
+    "ota24__pkt_total",
+    "ota5__bytes_total",
+    "ota5__pkt_total",
+    "router__arp_pkt",
+    "router__bytes_total",
+    "router__dns_pkt",
+    "router__dst_port_unique",
+    "router__ip_dst_unique",
+    "router__pkt_total",
+    "router__tcp_syn",
+    "zigbee__bytes_total",
+    "zigbee__pkt_total"
+  ]
+}

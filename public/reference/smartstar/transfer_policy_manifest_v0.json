@@ -1,0 +1,131 @@
+{
+  "artifact_name": "smartstar_homeA_study_thesis_governance_transfer_smoke_test",
+  "candidate_registry": {
+    "iot_binary": [
+      "bernoulli_iid",
+      "minute_of_day_bernoulli",
+      "markov_1"
+    ],
+    "iot_continuous": [
+      "empirical_iid",
+      "minute_of_day",
+      "block_bootstrap"
+    ],
+    "iot_driver": [
+      "bernoulli_iid",
+      "minute_of_day_bernoulli",
+      "event_block_bootstrap"
+    ],
+    "iot_observability": [
+      "bernoulli_iid",
+      "minute_of_day_bernoulli",
+      "markov_1"
+    ]
+  },
+  "claim_scope": {
+    "not_supported": [
+      "empirical universality of the restricted residential CPS readiness counts",
+      "full smart-home CPS validation",
+      "Q4 physical-network coupling validation",
+      "leakage-safe anomaly-detection benchmark",
+      "formal privacy guarantee or routine non-inference proof"
+    ],
+    "q4_policy": "not_instantiated_no_independent_protocol_or_network_stream",
+    "q5_policy": "not_assessed_unless_predeclared_compatible_task_exists",
+    "q6_policy": "public-source release-manifest smoke test only; no privacy guarantee",
+    "supported": "procedural governance-transfer smoke test over a public weaker smart-home dataset"
+  },
+  "dataset": {
+    "excluded_optional_folders": [
+      "homeA-meter",
+      "homeA-phase"
+    ],
+    "license_statement": "CC BY 4.0 as stated on the UMass Smart* trace page",
+    "name": "UMass Smart* Home Dataset, 2013 Home A subset",
+    "selected_folders": [
+      "homeA-circuit",
+      "homeA-environmental",
+      "homeA-switch",
+      "homeA-furnace",
+      "homeA-door",
+      "homeA-motion"
+    ],
+    "source_page": "https://traces.cs.umass.edu/docs/traces/smartstar/"
+  },
+  "feature_rules": {
+    "binary_ffill_limit_windows": 180,
+    "core_folders": [
+      "homeA-circuit",
+      "homeA-environmental",
+      "homeA-switch",
+      "homeA-furnace",
+      "homeA-door",
+      "homeA-motion"
+    ],
+    "include_optional_meter_phase": false,
+    "max_features_per_role_for_smoke": null,
+    "min_train_val_nonmissing": 30,
+    "min_val_nonmissing": 5,
+    "optional_folders": [
+      "homeA-meter",
+      "homeA-phase"
+    ],
+    "read_csv_header": null,
+    "window_freq": "60s"
+  },
+  "manifest_created_utc": "2026-07-08T12:05:44.803157+00:00",
+  "random_seed": 20260717,
+  "readiness_gates": {
+    "binary": {
+      "rate_absdiff_pass_max": 0.05,
+      "rate_absdiff_warning_max": 0.15,
+      "run_ks_pass_max": 0.2,
+      "run_ks_warning_max": 0.35,
+      "transition_absdiff_pass_max": 0.05,
+      "transition_absdiff_warning_max": 0.15
+    },
+    "continuous": {
+      "acf1_absdiff_pass_max": 0.1,
+      "acf1_absdiff_warning_max": 0.25,
+      "ks_pass_max": 0.2,
+      "ks_warning_max": 0.35,
+      "nw_pass_max": 0.2,
+      "nw_warning_max": 0.35
+    },
+    "driver": {
+      "burst_ratio_pass_range": [
+        0.5,
+        2.0
+      ],
+      "burst_ratio_warning_range": [
+        0.25,
+        4.0
+      ],
+      "interarrival_ks_pass_max": 0.2,
+      "interarrival_ks_warning_max": 0.35,
+      "rate_ratio_pass_range": [
+        0.5,
+        2.0
+      ],
+      "rate_ratio_warning_range": [
+        0.25,
+        4.0
+      ]
+    },
+    "observability": {
+      "rate_absdiff_pass_max": 0.05,
+      "rate_absdiff_warning_max": 0.15,
+      "run_ks_pass_max": 0.2,
+      "run_ks_warning_max": 0.35,
+      "transition_absdiff_pass_max": 0.05,
+      "transition_absdiff_warning_max": 0.15
+    }
+  },
+  "split": {
+    "test_frac": 0.2,
+    "test_use": "final audit only; no repair, selection, tuning, or threshold setting",
+    "train_frac": 0.6,
+    "type": "chronological",
+    "val_frac": 0.2
+  }
+}

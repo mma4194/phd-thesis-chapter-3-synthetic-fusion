@@ -1,0 +1,20 @@
+{
+  "python": "3.11.11",
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "23.0.1",
+    "torch": "2.10.0",
+    "sdv": "1.37.2",
+    "ctgan": "0.12.1",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.4",
+    "copulas": "0.14.1",
+    "rdt": "1.21.0",
+    "deepecho": "0.8.1",
+    "ipython": "9.10.0"
+  }
+}

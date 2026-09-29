@@ -1,0 +1,5 @@
+owner_role,fatal,pass,warning,blocker,unsupported,not_assessed,excluded,total_audited,dominant_claim_consequence
+iot_binary,2,27,2,0,0,0,0,31,scope_contains_fatal_or_blocked_evidence
+iot_continuous,49,5,10,0,0,0,0,64,scope_contains_fatal_or_blocked_evidence
+iot_driver,13,75,11,0,0,0,0,99,scope_contains_fatal_or_blocked_evidence
+iot_observability,31,55,11,0,0,0,0,97,scope_contains_fatal_or_blocked_evidence

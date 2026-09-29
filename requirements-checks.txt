@@ -1,0 +1,9 @@
+# Lightweight CI checks; not the full experiment environment.
+numpy==2.4.3
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+pyarrow==23.0.1
+matplotlib==3.10.8
+nbformat==5.10.4
+ipython==9.10.0

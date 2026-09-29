@@ -1,0 +1,52 @@
+{
+  "builder_version": "v2.0_replication_artifact_driven_conservative_zigbee",
+  "replication_parquet": "cps_synth_v4_4_7_32_FULL_COUPLED/alignment_replication_train_val.parquet",
+  "allowed_tiers": [
+    "zigbee"
+  ],
+  "tierA_rules": {
+    "require_manifest_ready_positive": true,
+    "min_z_immediate_core": 3.0,
+    "min_z_sharpness_core": 2.0,
+    "min_coverage_core": 0.8,
+    "allowed_lag_range": [
+      0,
+      2
+    ],
+    "max_abs_lag_diff": 1,
+    "required_labels": [
+      "event_locked_positive"
+    ]
+  },
+  "tierB_rules": {
+    "require_replicated_high_confidence": true,
+    "min_z_immediate_core": 2.5,
+    "min_z_sharpness_core": 1.5,
+    "min_coverage_core": 0.75,
+    "allowed_lag_range": [
+      0,
+      3
+    ],
+    "max_abs_lag_diff": 2,
+    "allowed_labels": [
+      "event_locked_positive"
+    ]
+  },
+  "support_rules": {
+    "min_train_anchor_events": 100,
+    "min_val_anchor_events": 100,
+    "require_positive_direction_both": true,
+    "require_positive_sharpness_both": true
+  },
+  "n_replication_rows_loaded": 22,
+  "n_manifest_all": 22,
+  "n_tierA": 5,
+  "n_tierB": 0,
+  "notes": [
+    "This manifest is driven directly from the replication artifact, not rebuilt from per-split alignments.",
+    "Tier A is intentionally narrow and respects manifest_ready_positive from the validator.",
+    "Tier B is optional secondary replicated Zigbee coupling, still positive and label-clean.",
+    "Weights are relative within this manifest and should not be interpreted as absolute physical magnitudes.",
+    "Router and OTA are intentionally excluded from this first manifest to protect realism."
+  ]
+}

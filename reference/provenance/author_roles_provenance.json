@@ -1,0 +1,9 @@
+{
+  "basis": "Author-led feature review with explicit semantic clarifications for the two named features. No inter-annotator agreement is asserted.",
+  "manual_input": true,
+  "source_json_sha256": "c1101c54f88cde2160750da27628ba20c064a7601612f6814c3d7fabebf5f84c",
+  "clarifications": {
+    "iot__events_entity_unique": "iot_continuous",
+    "events_in_sec__feat__coffee_maker_local_control__binary_sensor__state": "iot_driver"
+  }
+}

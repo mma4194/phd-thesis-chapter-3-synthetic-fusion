@@ -1,0 +1,3193 @@
+{
+  "reference_version": "2026-09-29-paper-v1",
+  "run_id": "20260927T211120_911d03",
+  "evaluation_id": "evaluation_20260929T034145_967324Z",
+  "scope": "Explicit mapped reported results, not exhaustive manuscript coverage or independent rerun repeatability",
+  "paper_source_sha256": {
+    "supplementary_materials.tex": "24d3dd9f7c7226fd2379a3a524024fee6fc799e7ef2390ff3737eed431aceafd",
+    "decision_details.tex": "9190ae458b491b5dbfc4e86c737ebbf88a2056cc029e6e69a6fd375babae42f6",
+    "manuscript.tex": "2b6707f6eafd52b752dabe45e2dd95770bc51be4a87f5b21edaed0c7bb516cc2",
+    "supplement_thesis.tex": "3a1b3ef4ca2174c2ccf4ce2fc75baf2fbddc792fc374f92ce85f312c215afa0f",
+    "cross_document_references.tex": "a04e697c18aa38fd45f31f327869663b6d9f149c66c8a12df52b8e615630574c",
+    "results.tex": "739311674da40bb16e63adf8454ffe30637b46abbec2ac4050427c9cace7c46b",
+    "supplementary_content.tex": "ba3eea9be50f5f76aa3cedc1aba31cf8f79f827fdd0c2720e2c03654f1823a0c",
+    "implementation_details.tex": "361bcb2e172361d93ddeeccf81c1230dcdb8aac0e70bcf26fcba0aced8cb62ce"
+  },
+  "checks": [
+    {
+      "id": "AzeroAllBlockerN",
+      "expected": 1.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv",
+      "aggregate": "single",
+      "column": "publication_blocker_n",
+      "where": {
+        "q4_scope": "A0_all_8_zigbee_safe_candidate"
+      },
+      "reported_latex": "1",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "AzeroAllPairs",
+      "expected": 8.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv",
+      "aggregate": "single",
+      "column": "pair_n",
+      "where": {
+        "q4_scope": "A0_all_8_zigbee_safe_candidate"
+      },
+      "reported_latex": "8",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "AzeroValFeasibleMeanETA",
+      "expected": 0.7106506013083256,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv",
+      "aggregate": "single",
+      "column": "mean_ETA_similarity",
+      "where": {
+        "q4_scope": "A0_VAL_feasible_zigbee_subset"
+      },
+      "reported_latex": "0.710651",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "AzeroValFeasiblePairs",
+      "expected": 6.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q4_a0_scope_arbitration.csv",
+      "aggregate": "single",
+      "column": "pair_n",
+      "where": {
+        "q4_scope": "A0_VAL_feasible_zigbee_subset"
+      },
+      "reported_latex": "6",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "BaselineIoTCompactBestExternalPenalty",
+      "expected": 0.3618084021603097,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "min",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "iot_continuous_compact_tabular",
+        "artifact_type": "external_baseline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.361808",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineIoTCompactPenalty",
+      "expected": 0.3547821729645631,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "iot_continuous_compact_tabular",
+        "baseline": "RoleAwarePipeline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.354782",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineIoTCompactGap",
+      "expected": 0.0070262291957465806,
+      "op": "subtract",
+      "dependencies": [
+        "BaselineIoTCompactBestExternalPenalty",
+        "BaselineIoTCompactPenalty"
+      ],
+      "reported_latex": "0.007026",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineProtocolCoreBestExternalPenalty",
+      "expected": 0.1500775131272842,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "min",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "protocol_core_tabular",
+        "artifact_type": "external_baseline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.150078",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineProtocolCorePenalty",
+      "expected": 0.0748136544128165,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "protocol_core_tabular",
+        "baseline": "RoleAwarePipeline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.074814",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineProtocolSeqBestExternalPenalty",
+      "expected": 0.3286020131084038,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "min",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "protocol_sequence_temporal",
+        "artifact_type": "external_baseline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.328602",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineProtocolSeqPenalty",
+      "expected": 0.0621757080347736,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "protocol_sequence_temporal",
+        "baseline": "RoleAwarePipeline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.062176",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselinePublicCoreBestExternalPenalty",
+      "expected": 0.2014831379631854,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "min",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "public_candidate_core_tabular",
+        "artifact_type": "external_baseline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.201483",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselinePublicCorePenalty",
+      "expected": 0.0623482770638812,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "public_candidate_core_tabular",
+        "baseline": "RoleAwarePipeline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.062348",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineSequenceCoreBestExternalPenalty",
+      "expected": 0.4569154455692555,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "min",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "sequence_core_temporal",
+        "artifact_type": "external_baseline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.456915",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "BaselineSequenceCorePenalty",
+      "expected": 0.0488305342248219,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell17_4_baseline_metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "scope_id": "sequence_core_temporal",
+        "baseline": "RoleAwarePipeline",
+        "metric_status": "evaluated"
+      },
+      "reported_latex": "0.048831",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "ContinuousAllTestAUC",
+      "expected": 0.6809067595246676,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "TEST_AUC",
+      "where": {
+        "scope": "all_continuous_targets"
+      },
+      "reported_latex": "0.680907",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "ContinuousAllTestFatalN",
+      "expected": 27.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "TEST_fatal_n",
+      "where": {
+        "scope": "all_continuous_targets"
+      },
+      "reported_latex": "27",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousFatalN",
+      "expected": 48.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "test_qa_status": "fatal"
+      },
+      "reported_latex": "48",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousFinalOwned",
+      "expected": 147.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/iot_full_assembly_audit.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "metric": "continuous_final_owned_n"
+      },
+      "reported_latex": "147",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousMeanCtwoST",
+      "expected": 0.6809067595246676,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv",
+      "aggregate": "mean",
+      "column": "val_c2st_auc_logreg_1d",
+      "where": {},
+      "reported_latex": "0.680907",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "ContinuousMeanKS",
+      "expected": 0.37997634579872197,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv",
+      "aggregate": "mean",
+      "column": "KS",
+      "where": {},
+      "reported_latex": "0.379976",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "ContinuousMeanWass",
+      "expected": 0.3700428901719807,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv",
+      "aggregate": "mean",
+      "column": "wasserstein_norm",
+      "where": {},
+      "reported_latex": "0.370043",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "ContinuousPassN",
+      "expected": 70.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "test_qa_status": "pass"
+      },
+      "reported_latex": "70",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousTargets",
+      "expected": 148.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {},
+      "reported_latex": "148",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousTauFiftyFiveCols",
+      "expected": 71.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "columns",
+      "where": {
+        "scope": "target_ready_tau_0.55"
+      },
+      "reported_latex": "71",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousTauFiftyFiveTestAUC",
+      "expected": 0.5969943441975285,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "TEST_AUC",
+      "where": {
+        "scope": "target_ready_tau_0.55"
+      },
+      "reported_latex": "0.596994",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "ContinuousTauFiftyFiveTestFatalN",
+      "expected": 9.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "TEST_fatal_n",
+      "where": {
+        "scope": "target_ready_tau_0.55"
+      },
+      "reported_latex": "9",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousTauSixtyCols",
+      "expected": 96.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "columns",
+      "where": {
+        "scope": "target_ready_tau_0.60"
+      },
+      "reported_latex": "96",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousTauSixtyTestAUC",
+      "expected": 0.6195525154471397,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "TEST_AUC",
+      "where": {
+        "scope": "target_ready_tau_0.60"
+      },
+      "reported_latex": "0.619553",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "ContinuousTauSixtyTestFatalN",
+      "expected": 14.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/paper_table_q1q2_continuous_target_ready_tiers.csv",
+      "aggregate": "single",
+      "column": "TEST_fatal_n",
+      "where": {
+        "scope": "target_ready_tau_0.60"
+      },
+      "reported_latex": "14",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ContinuousWarningN",
+      "expected": 30.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12c6R_final_test_qa_metrics.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "test_qa_status": "warning"
+      },
+      "reported_latex": "30",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "CvThreeRefCtwoSTExact",
+      "expected": 0.7666247679729729,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/review_fix_outputs/window_vs_pooled_reconciliation.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "quantity": "EXTC_same_instrument_pooled_percol_C2ST_AUC"
+      },
+      "reported_latex": "0.766625",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "CvThreeWinCtwoSTMax",
+      "expected": 0.8122824940540542,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "max",
+      "column": "mean_percol_c2st",
+      "where": {},
+      "reported_latex": "0.8123",
+      "decimals": [
+        4
+      ]
+    },
+    {
+      "id": "CvThreeWinCtwoSTMin",
+      "expected": 0.7814123535135135,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "min",
+      "column": "mean_percol_c2st",
+      "where": {},
+      "reported_latex": "0.7814",
+      "decimals": [
+        4
+      ]
+    },
+    {
+      "id": "CvThreeWinCtwoSTStd",
+      "expected": 0.011840266287199122,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "std",
+      "column": "mean_percol_c2st",
+      "where": {},
+      "reported_latex": "0.0118",
+      "decimals": [
+        4
+      ]
+    },
+    {
+      "id": "CvThreeWinKSMax",
+      "expected": 0.5438538738315681,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "max",
+      "column": "mean_ks",
+      "where": {},
+      "reported_latex": "0.5439",
+      "decimals": [
+        4
+      ]
+    },
+    {
+      "id": "CvThreeWinKSMean",
+      "expected": 0.5032203135278974,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "mean",
+      "column": "mean_ks",
+      "where": {},
+      "reported_latex": "0.5032",
+      "decimals": [
+        4
+      ]
+    },
+    {
+      "id": "CvThreeWinKSMin",
+      "expected": 0.4655329255059238,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "min",
+      "column": "mean_ks",
+      "where": {},
+      "reported_latex": "0.4655",
+      "decimals": [
+        4
+      ]
+    },
+    {
+      "id": "CvThreeWinKSStd",
+      "expected": 0.030910908841697463,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "std",
+      "column": "mean_ks",
+      "where": {},
+      "reported_latex": "0.0309",
+      "decimals": [
+        4
+      ]
+    },
+    {
+      "id": "CvThreeWindowCtwoSTExact",
+      "expected": 0.7957832645270271,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_C_window_metrics_v3.csv",
+      "aggregate": "mean",
+      "column": "mean_percol_c2st",
+      "where": {},
+      "reported_latex": "0.795783",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "DriverCorrFatalN",
+      "expected": 3.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12e6_driver_corrected_release_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "driver_corrected_ratio_battery_status": "fatal"
+      },
+      "reported_latex": "3",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "DriverCorrPassN",
+      "expected": 13.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12e6_driver_corrected_release_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "driver_corrected_ratio_battery_status": "pass"
+      },
+      "reported_latex": "13",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "DriverCorrWarningN",
+      "expected": 10.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell12e6_driver_corrected_release_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "driver_corrected_ratio_battery_status": "warning"
+      },
+      "reported_latex": "10",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "DriverPublicCols",
+      "expected": 0.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet",
+      "metric": "prefix",
+      "value": "events_in_sec__",
+      "reported_latex": "0",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "DriverReleaseExcludedN",
+      "expected": 3.0,
+      "op": "identity",
+      "dependencies": [
+        "DriverCorrFatalN"
+      ],
+      "reported_latex": "3",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "PriorPublicCols",
+      "expected": 46.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_MITIGATED.parquet",
+      "metric": "columns",
+      "reported_latex": "46",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "PublicCols",
+      "expected": 23.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet",
+      "metric": "columns",
+      "reported_latex": "23",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "DriverSequenceBlockedN",
+      "expected": 23.0,
+      "op": "subtract",
+      "dependencies": [
+        "PriorPublicCols",
+        "PublicCols"
+      ],
+      "reported_latex": "23",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "FullScientificCols",
+      "expected": 555.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_FINAL_NO_Q4.parquet",
+      "metric": "columns",
+      "reported_latex": "555",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "DroppedPublicCols",
+      "expected": 532.0,
+      "op": "subtract",
+      "dependencies": [
+        "FullScientificCols",
+        "PublicCols"
+      ],
+      "reported_latex": "532",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ExtCDriverKsMean",
+      "expected": 0.0003562591435331,
+      "op": "csv",
+      "path": "window_reconstruction/window_metrics.csv",
+      "aggregate": "mean",
+      "column": "mean_ks",
+      "where": {
+        "branch": "drivers"
+      },
+      "reported_latex": "0.00036",
+      "decimals": [
+        5
+      ]
+    },
+    {
+      "id": "ExtCRouterKsMax",
+      "expected": 0.0743166355188567,
+      "op": "csv",
+      "path": "window_reconstruction/window_metrics.csv",
+      "aggregate": "max",
+      "column": "mean_ks",
+      "where": {
+        "branch": "router"
+      },
+      "reported_latex": "0.074",
+      "decimals": [
+        3
+      ]
+    },
+    {
+      "id": "ExtCRouterKsMean",
+      "expected": 0.0435693883982943,
+      "op": "csv",
+      "path": "window_reconstruction/window_metrics.csv",
+      "aggregate": "mean",
+      "column": "mean_ks",
+      "where": {
+        "branch": "router"
+      },
+      "reported_latex": "0.044",
+      "decimals": [
+        3
+      ]
+    },
+    {
+      "id": "ExtCRouterKsMin",
+      "expected": 0.0128221412777319,
+      "op": "csv",
+      "path": "window_reconstruction/window_metrics.csv",
+      "aggregate": "min",
+      "column": "mean_ks",
+      "where": {
+        "branch": "router"
+      },
+      "reported_latex": "0.013",
+      "decimals": [
+        3
+      ]
+    },
+    {
+      "id": "ExtCZigbeeKsMean",
+      "expected": 0.11796700636546605,
+      "op": "csv",
+      "path": "window_reconstruction/window_metrics.csv",
+      "aggregate": "mean",
+      "column": "mean_ks",
+      "where": {
+        "branch": "zigbee"
+      },
+      "reported_latex": "0.118",
+      "decimals": [
+        3
+      ]
+    },
+    {
+      "id": "ExtFiveTOneGapRone",
+      "expected": [
+        0.08220653133274489,
+        0.005443165798465141
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R1_aggregate_gate"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.0822 \\pm 0.0054}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "ExtFiveTOneGapRthree",
+      "expected": [
+        0.03628414465793106,
+        0.006768049213044683
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R3_governed"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.0363 \\pm 0.0068}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "ExtFiveTOneGapRtwo",
+      "expected": [
+        0.1285180030325661,
+        0.0010444244860333184
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R2_role_only"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.1285 \\pm 0.0010}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "ExtFiveTThreeGapRone",
+      "expected": [
+        0.4288679512261777,
+        0.02210065408575121
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T3_cont_forecast(DENIED)",
+        "regime": "R1_aggregate_gate"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.4289 \\pm 0.0221}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "ExtFiveTThreeGapRtwo",
+      "expected": [
+        0.42961130909238915,
+        0.0016140090475852728
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T3_cont_forecast(DENIED)",
+        "regime": "R2_role_only"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.4296 \\pm 0.0016}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "ExtFiveTTwoGapRone",
+      "expected": [
+        0.27462323408194295,
+        0.03308047695957805
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R1_aggregate_gate"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.2746 \\pm 0.0331}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "ExtFiveTTwoGapRthree",
+      "expected": [
+        0.40140461654875514,
+        0.011902273146442138
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R3_governed"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.4014 \\pm 0.0119}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "ExtFiveTTwoGapRtwo",
+      "expected": [
+        0.2711922655911371,
+        0.04971385537924865
+      ],
+      "op": "csv_pair",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R2_role_only"
+      },
+      "column": "gap",
+      "reported_latex": "\\ensuremath{0.2712 \\pm 0.0497}",
+      "decimals": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "GenericQfourBlockers",
+      "expected": 623.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell13_4_q4_pair_summary.csv",
+      "aggregate": "sum",
+      "column": "q4_pair_publication_blocker",
+      "where": {},
+      "reported_latex": "623",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "GenericQfourPairs",
+      "expected": 624.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/cell13_4_q4_pair_summary.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {},
+      "reported_latex": "624",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "MildFanoFatalN",
+      "expected": 3.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "fatal",
+      "where": {
+        "abs_fano_warn_threshold": 0.5,
+        "abs_fano_fatal_threshold": 1.0
+      },
+      "reported_latex": "3",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "MildFanoFatalThreshold",
+      "expected": 1.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "abs_fano_fatal_threshold",
+      "where": {
+        "abs_fano_warn_threshold": 0.5,
+        "abs_fano_fatal_threshold": 1.0
+      },
+      "reported_latex": "1.0",
+      "decimals": [
+        1
+      ]
+    },
+    {
+      "id": "MildFanoPassN",
+      "expected": 11.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "pass",
+      "where": {
+        "abs_fano_warn_threshold": 0.5,
+        "abs_fano_fatal_threshold": 1.0
+      },
+      "reported_latex": "11",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "MildFanoWarnThreshold",
+      "expected": 0.5,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "abs_fano_warn_threshold",
+      "where": {
+        "abs_fano_warn_threshold": 0.5,
+        "abs_fano_fatal_threshold": 1.0
+      },
+      "reported_latex": "0.5",
+      "decimals": [
+        1
+      ]
+    },
+    {
+      "id": "MildFanoWarningN",
+      "expected": 12.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "warning",
+      "where": {
+        "abs_fano_warn_threshold": 0.5,
+        "abs_fano_fatal_threshold": 1.0
+      },
+      "reported_latex": "12",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "NRows",
+      "expected": 255540.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet",
+      "metric": "rows",
+      "reported_latex": "255{,}540",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "OTAScientificCols",
+      "expected": 2.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_FINAL_NO_Q4.parquet",
+      "metric": "prefix",
+      "value": "ota__",
+      "reported_latex": "2",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "QSixSeqSparseDriverCols",
+      "expected": 23.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "diagnostic": "release_sparse_driver_columns"
+      },
+      "reported_latex": "23",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "PriorDriverPublicCols",
+      "expected": 23.0,
+      "op": "identity",
+      "dependencies": [
+        "QSixSeqSparseDriverCols"
+      ],
+      "reported_latex": "23",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "PublicColsOnDisk",
+      "expected": 23.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet",
+      "metric": "columns",
+      "reported_latex": "23",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "QSixSeqSyntheticDuplicateRate",
+      "expected": 0.9425547996976568,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "duplicate_member_rate_among_query_active_windows",
+      "where": {
+        "comparison": "synthetic_vs_real_reference_calibrated"
+      },
+      "reported_latex": "0.942555",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqRealNullDuplicateRate",
+      "expected": 0.9611801242236024,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "duplicate_member_rate_among_query_active_windows",
+      "where": {
+        "comparison": "real_holdout_vs_real_reference_null"
+      },
+      "reported_latex": "0.961180",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqDuplicateMinusNull",
+      "expected": -0.018625324525945675,
+      "op": "subtract",
+      "dependencies": [
+        "QSixSeqSyntheticDuplicateRate",
+        "QSixSeqRealNullDuplicateRate"
+      ],
+      "reported_latex": "-0.018625",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqExactSeenRate",
+      "expected": 0.06046863189720333,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "diagnostic": "exact_synthetic_active_windows_seen_in_real_rate"
+      },
+      "reported_latex": "0.060469",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqRealNullExactSeenRate",
+      "expected": 0.9347826086956522,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "exact_active_windows_seen_in_reference_rate",
+      "where": {
+        "comparison": "real_holdout_vs_real_reference_null"
+      },
+      "reported_latex": "0.934783",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqExactSeenMinusNull",
+      "expected": -0.8743139767984489,
+      "op": "subtract",
+      "dependencies": [
+        "QSixSeqExactSeenRate",
+        "QSixSeqRealNullExactSeenRate"
+      ],
+      "reported_latex": "-0.874314",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqRealHoldoutUnionRate",
+      "expected": 0.3023474178403756,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "query_active_union_rate",
+      "where": {
+        "comparison": "real_holdout_vs_real_reference_null"
+      },
+      "reported_latex": "0.302347",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqRealHoldoutWindows",
+      "expected": 2130.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "query_windows",
+      "where": {
+        "comparison": "real_holdout_vs_real_reference_null"
+      },
+      "reported_latex": "2{,}130",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "QSixSeqRealNullRepeatAfterFirstRate",
+      "expected": 0.9145962732919256,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "repeat_after_first_rate_among_query_active_windows",
+      "where": {
+        "comparison": "real_holdout_vs_real_reference_null"
+      },
+      "reported_latex": "0.914596",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqRealReferenceWindows",
+      "expected": 2129.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "reference_windows",
+      "where": {
+        "comparison": "real_holdout_vs_real_reference_null"
+      },
+      "reported_latex": "2{,}129",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "QSixSeqRealUnionRate",
+      "expected": 0.26602488847147215,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "diagnostic": "real_active_union_window_rate"
+      },
+      "reported_latex": "0.266025",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqSyntheticRepeatAfterFirstRate",
+      "expected": 0.8953136810279667,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibration.csv",
+      "aggregate": "single",
+      "column": "repeat_after_first_rate_among_query_active_windows",
+      "where": {
+        "comparison": "synthetic_vs_real_reference_calibrated"
+      },
+      "reported_latex": "0.895314",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqRepeatAfterFirstMinusNull",
+      "expected": -0.019282592263958898,
+      "op": "subtract",
+      "dependencies": [
+        "QSixSeqSyntheticRepeatAfterFirstRate",
+        "QSixSeqRealNullRepeatAfterFirstRate"
+      ],
+      "reported_latex": "-0.019283",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqSyntheticUnionRate",
+      "expected": 0.6212725992016905,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "diagnostic": "synthetic_active_union_window_rate"
+      },
+      "reported_latex": "0.621273",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqSyntheticMinusNullUnion",
+      "expected": 0.3189251813613149,
+      "op": "subtract",
+      "dependencies": [
+        "QSixSeqSyntheticUnionRate",
+        "QSixSeqRealHoldoutUnionRate"
+      ],
+      "reported_latex": "0.318925",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqUnionAbsDiffBlockThreshold",
+      "expected": 0.25,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibrated_decision.csv",
+      "aggregate": "single",
+      "column": "union_abs_diff_block_threshold",
+      "where": {},
+      "reported_latex": "0.25",
+      "decimals": [
+        2
+      ]
+    },
+    {
+      "id": "QSixSeqUnionRateRatio",
+      "expected": 2.3353927625772286,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "diagnostic": "synthetic_to_real_union_rate_ratio"
+      },
+      "reported_latex": "2.335393",
+      "decimals": [
+        6
+      ]
+    },
+    {
+      "id": "QSixSeqUnionRatioBlockThreshold",
+      "expected": 2.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_null_calibrated_decision.csv",
+      "aggregate": "single",
+      "column": "union_ratio_block_threshold",
+      "where": {},
+      "reported_latex": "2.0",
+      "decimals": [
+        1
+      ]
+    },
+    {
+      "id": "QSixSeqWindowRows",
+      "expected": 60.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "diagnostic": "window_rows"
+      },
+      "reported_latex": "60",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "QSixSeqWindowsTotal",
+      "expected": 4259.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_sequence_risk_diagnostics.csv",
+      "aggregate": "single",
+      "column": "value",
+      "where": {
+        "diagnostic": "windows_total"
+      },
+      "reported_latex": "4{,}259",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "RoleAmbiguityQueueN",
+      "expected": 115.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/role_assignment_ambiguity_review_queue.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {},
+      "reported_latex": "115",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "RoleAssignmentRulesN",
+      "expected": 10.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/role_assignment_protocol_rules.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {},
+      "reported_latex": "10",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "RoleDuplicateOwnerN",
+      "expected": 0.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/role_assignment_owner_summary.csv",
+      "aggregate": "single",
+      "column": "count",
+      "where": {
+        "primary_owner": "__duplicate_owner_columns__"
+      },
+      "reported_latex": "0",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "RouterPublicCols",
+      "expected": 18.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet",
+      "metric": "prefix",
+      "value": "router__",
+      "reported_latex": "18",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarBinaryAudited",
+      "expected": 31.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_binary"
+      },
+      "reported_latex": "31",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarBinaryCols",
+      "expected": 33.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/feature_eligibility_train_val_only.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_binary"
+      },
+      "reported_latex": "33",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarBinaryExcludedBeforeTest",
+      "expected": 2.0,
+      "op": "subtract",
+      "dependencies": [
+        "SmartStarBinaryCols",
+        "SmartStarBinaryAudited"
+      ],
+      "reported_latex": "2",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarBinaryFatal",
+      "expected": 2.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_binary",
+        "test_status": "fatal"
+      },
+      "reported_latex": "2",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarBinaryPass",
+      "expected": 27.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_binary",
+        "test_status": "pass"
+      },
+      "reported_latex": "27",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarBinaryWarning",
+      "expected": 2.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_binary",
+        "test_status": "warning"
+      },
+      "reported_latex": "2",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarContinuousAudited",
+      "expected": 64.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_continuous"
+      },
+      "reported_latex": "64",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarContinuousCols",
+      "expected": 64.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/feature_eligibility_train_val_only.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_continuous"
+      },
+      "reported_latex": "64",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarContinuousFatal",
+      "expected": 49.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_continuous",
+        "test_status": "fatal"
+      },
+      "reported_latex": "49",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarContinuousPass",
+      "expected": 5.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_continuous",
+        "test_status": "pass"
+      },
+      "reported_latex": "5",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarContinuousWarning",
+      "expected": 10.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_continuous",
+        "test_status": "warning"
+      },
+      "reported_latex": "10",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarDriverAudited",
+      "expected": 99.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_driver"
+      },
+      "reported_latex": "99",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarDriverCols",
+      "expected": 99.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/feature_eligibility_train_val_only.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_driver"
+      },
+      "reported_latex": "99",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarDriverFatal",
+      "expected": 13.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_driver",
+        "test_status": "fatal"
+      },
+      "reported_latex": "13",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarDriverPass",
+      "expected": 75.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_driver",
+        "test_status": "pass"
+      },
+      "reported_latex": "75",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarDriverWarning",
+      "expected": 11.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_driver",
+        "test_status": "warning"
+      },
+      "reported_latex": "11",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarEligibleCols",
+      "expected": 291.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {},
+      "reported_latex": "291",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarObsFatal",
+      "expected": 31.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_observability",
+        "test_status": "fatal"
+      },
+      "reported_latex": "31",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarObsPass",
+      "expected": 55.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_observability",
+        "test_status": "pass"
+      },
+      "reported_latex": "55",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarObsWarning",
+      "expected": 11.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_observability",
+        "test_status": "warning"
+      },
+      "reported_latex": "11",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarObservabilityAudited",
+      "expected": 97.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/test_evidence_q1_q2_q3_ledger.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_observability"
+      },
+      "reported_latex": "97",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarObservabilityCols",
+      "expected": 97.0,
+      "op": "csv",
+      "path": "smartstar/ledgers/feature_eligibility_train_val_only.csv",
+      "aggregate": "rows",
+      "column": "None",
+      "where": {
+        "owner_role": "iot_observability"
+      },
+      "reported_latex": "97",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarReleaseKeep",
+      "expected": 196.0,
+      "op": "keep_count",
+      "path": "smartstar/manifests/q6_public_source_release_manifest.csv",
+      "reported_latex": "196",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarReleaseExclude",
+      "expected": 95.0,
+      "op": "subtract",
+      "dependencies": [
+        "SmartStarEligibleCols",
+        "SmartStarReleaseKeep"
+      ],
+      "reported_latex": "95",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarRows",
+      "expected": 132480.0,
+      "op": "csv",
+      "path": "smartstar/manifests/split_manifest.csv",
+      "aggregate": "sum",
+      "column": "rows",
+      "where": {},
+      "reported_latex": "132{,}480",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarTestRows",
+      "expected": 26496.0,
+      "op": "csv",
+      "path": "smartstar/manifests/split_manifest.csv",
+      "aggregate": "single",
+      "column": "rows",
+      "where": {
+        "split": "TEST"
+      },
+      "reported_latex": "26{,}496",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarTrainRows",
+      "expected": 79488.0,
+      "op": "csv",
+      "path": "smartstar/manifests/split_manifest.csv",
+      "aggregate": "single",
+      "column": "rows",
+      "where": {
+        "split": "TRAIN"
+      },
+      "reported_latex": "79{,}488",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "SmartStarValRows",
+      "expected": 26496.0,
+      "op": "csv",
+      "path": "smartstar/manifests/split_manifest.csv",
+      "aggregate": "single",
+      "column": "rows",
+      "where": {
+        "split": "VAL"
+      },
+      "reported_latex": "26{,}496",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "StrictFanoFatalN",
+      "expected": 6.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "fatal",
+      "where": {
+        "abs_fano_warn_threshold": 0.1,
+        "abs_fano_fatal_threshold": 0.5
+      },
+      "reported_latex": "6",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "StrictFanoFatalThreshold",
+      "expected": 0.5,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "abs_fano_fatal_threshold",
+      "where": {
+        "abs_fano_warn_threshold": 0.1,
+        "abs_fano_fatal_threshold": 0.5
+      },
+      "reported_latex": "0.5",
+      "decimals": [
+        1
+      ]
+    },
+    {
+      "id": "StrictFanoPassN",
+      "expected": 6.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "pass",
+      "where": {
+        "abs_fano_warn_threshold": 0.1,
+        "abs_fano_fatal_threshold": 0.5
+      },
+      "reported_latex": "6",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "StrictFanoWarnThreshold",
+      "expected": 0.1,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "abs_fano_warn_threshold",
+      "where": {
+        "abs_fano_warn_threshold": 0.1,
+        "abs_fano_fatal_threshold": 0.5
+      },
+      "reported_latex": "0.1",
+      "decimals": [
+        1
+      ]
+    },
+    {
+      "id": "StrictFanoWarningN",
+      "expected": 14.0,
+      "op": "csv",
+      "path": "residential_BINARY_V6/reports/thesis_strong_revision_fixes/tables/q6_sparse_driver_absolute_fano_sensitivity_grid.csv",
+      "aggregate": "single",
+      "column": "warning",
+      "where": {
+        "abs_fano_warn_threshold": 0.1,
+        "abs_fano_fatal_threshold": 0.5
+      },
+      "reported_latex": "14",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "TimestampPublicCols",
+      "expected": 1.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet",
+      "metric": "prefix",
+      "value": "sec_epoch_s__canon",
+      "reported_latex": "1",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotDerivedDrivers",
+      "expected": 40.0,
+      "op": "csv",
+      "path": "toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv",
+      "aggregate": "single",
+      "column": "derived_physical_drivers",
+      "where": {},
+      "reported_latex": "40",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotEligibleDrivers",
+      "expected": 30.0,
+      "op": "csv",
+      "path": "toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv",
+      "aggregate": "single",
+      "column": "eligible_physical_drivers",
+      "where": {},
+      "reported_latex": "30",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotPhysicalSourceCols",
+      "expected": 18.0,
+      "op": "csv",
+      "path": "toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv",
+      "aggregate": "single",
+      "column": "physical_source_columns",
+      "where": {},
+      "reported_latex": "18",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotQfourPairs",
+      "expected": 50.0,
+      "op": "csv",
+      "path": "toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv",
+      "aggregate": "single",
+      "column": "q4_frozen_pairs",
+      "where": {},
+      "reported_latex": "50",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotQsixExcluded",
+      "expected": 1.0,
+      "op": "csv",
+      "path": "toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv",
+      "aggregate": "single",
+      "column": "q6_excluded_columns",
+      "where": {},
+      "reported_latex": "1",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotQsixKept",
+      "expected": 185.0,
+      "op": "csv",
+      "path": "toniot/physical_q4/tables/toniot_transfer_claim_scope_summary_physical_q4.csv",
+      "aggregate": "single",
+      "column": "q6_kept_columns",
+      "where": {},
+      "reported_latex": "185",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotTestWindows",
+      "expected": 1406.0,
+      "op": "parquet",
+      "path": "toniot/intermediate/toniot_aligned_windows_with_split.parquet",
+      "metric": "split",
+      "value": "TEST",
+      "reported_latex": "1{,}406",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotTrainWindows",
+      "expected": 4214.0,
+      "op": "parquet",
+      "path": "toniot/intermediate/toniot_aligned_windows_with_split.parquet",
+      "metric": "split",
+      "value": "TRAIN",
+      "reported_latex": "4{,}214",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotValWindows",
+      "expected": 1404.0,
+      "op": "parquet",
+      "path": "toniot/intermediate/toniot_aligned_windows_with_split.parquet",
+      "metric": "split",
+      "value": "VAL",
+      "reported_latex": "1{,}404",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ToniotWindows",
+      "expected": 7024.0,
+      "op": "parquet",
+      "path": "toniot/intermediate/toniot_aligned_windows_with_split.parquet",
+      "metric": "rows",
+      "reported_latex": "7{,}024",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ZWaveScientificCols",
+      "expected": 0.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_FINAL_NO_Q4.parquet",
+      "metric": "prefix",
+      "value": "zwave__",
+      "reported_latex": "0",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "ZigbeePublicCols",
+      "expected": 4.0,
+      "op": "parquet",
+      "path": "residential_BINARY_V6/synthetic/CPS_SYNTHETIC_TEST_PUBLIC_Q6_CONSERVATIVE.parquet",
+      "metric": "prefix",
+      "value": "zigbee__",
+      "reported_latex": "4",
+      "decimals": [
+        0
+      ]
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/mean_ks",
+      "expected": 0.1970016548706531,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_ks",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/mean_hist_tv",
+      "expected": 0.0928451042178527,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_hist_tv",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/mean_wasserstein_norm",
+      "expected": 0.2865084830182591,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_wasserstein_norm",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/correlation_mae",
+      "expected": 0.1661537775893323,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "correlation_mae",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/c2st_auc",
+      "expected": 0.6886525625000001,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "c2st_auc",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/protocol_core_tabular/fair_scope_penalty_score",
+      "expected": 0.1862323164392195,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/protocol_core_tabular/mean_ks",
+      "expected": 0.1815265512343596,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_ks",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/protocol_core_tabular/mean_hist_tv",
+      "expected": 0.0672418546799171,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_hist_tv",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/protocol_core_tabular/mean_wasserstein_norm",
+      "expected": 0.2927606029866248,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_wasserstein_norm",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/protocol_core_tabular/correlation_mae",
+      "expected": 0.0598921817355196,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "correlation_mae",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/protocol_core_tabular/c2st_auc",
+      "expected": 0.648966375,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "c2st_auc",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/protocol_core_tabular/fair_scope_penalty_score",
+      "expected": 0.1500775131272842,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/mean_ks",
+      "expected": 0.0796921591165723,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_ks",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/mean_hist_tv",
+      "expected": 0.0313382895877792,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_hist_tv",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/mean_wasserstein_norm",
+      "expected": 0.5734400213979114,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_wasserstein_norm",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/correlation_mae",
+      "expected": 0.0869749629775798,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "correlation_mae",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/c2st_auc",
+      "expected": 0.8103178124999999,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "c2st_auc",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/CTGAN_numeric_counts_v1/public_candidate_core_tabular/fair_scope_penalty_score",
+      "expected": 0.2163526491159685,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "baseline": "CTGAN_numeric_counts_v1",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/public_candidate_core_tabular/mean_ks",
+      "expected": 0.0707811103721959,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_ks",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/public_candidate_core_tabular/mean_hist_tv",
+      "expected": 0.0254666256109624,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_hist_tv",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/public_candidate_core_tabular/mean_wasserstein_norm",
+      "expected": 0.5484662932529034,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_wasserstein_norm",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/public_candidate_core_tabular/correlation_mae",
+      "expected": 0.069439723079865,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "correlation_mae",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/public_candidate_core_tabular/c2st_auc",
+      "expected": 0.7932619375000001,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "c2st_auc",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/TabDDPM/public_candidate_core_tabular/fair_scope_penalty_score",
+      "expected": 0.2014831379631854,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "baseline": "TabDDPM",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/protocol_core_tabular/mean_ks",
+      "expected": 0.0763533879062698,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_ks",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/protocol_core_tabular/mean_hist_tv",
+      "expected": 0.0514269732410326,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_hist_tv",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/protocol_core_tabular/mean_wasserstein_norm",
+      "expected": 0.0683260276199695,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_wasserstein_norm",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/protocol_core_tabular/correlation_mae",
+      "expected": 0.0128530082968105,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "correlation_mae",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/protocol_core_tabular/c2st_auc",
+      "expected": 0.665108875,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "c2st_auc",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/protocol_core_tabular/fair_scope_penalty_score",
+      "expected": 0.0748136544128165,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "protocol_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/public_candidate_core_tabular/mean_ks",
+      "expected": 0.0274665279448702,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_ks",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/public_candidate_core_tabular/mean_hist_tv",
+      "expected": 0.0172700968330745,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_hist_tv",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/public_candidate_core_tabular/mean_wasserstein_norm",
+      "expected": 0.0777270740251709,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "mean_wasserstein_norm",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/public_candidate_core_tabular/correlation_mae",
+      "expected": 0.0218970302662905,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "correlation_mae",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/public_candidate_core_tabular/c2st_auc",
+      "expected": 0.66738065625,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "c2st_auc",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "baseline/RoleAwarePipeline/public_candidate_core_tabular/fair_scope_penalty_score",
+      "expected": 0.0623482770638812,
+      "op": "csv",
+      "root": "evaluation",
+      "path": "metric_by_artifact.csv",
+      "aggregate": "single",
+      "column": "fair_scope_penalty_score",
+      "where": {
+        "baseline": "RoleAwarePipeline",
+        "scope_id": "public_candidate_core_tabular"
+      },
+      "decimals": 4
+    },
+    {
+      "id": "regression/persistence/mae",
+      "expected": 12.087604386966271,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "mae",
+      "where": {
+        "model": "persistence"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/persistence/normalized_mae",
+      "expected": 0.213365552000504,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "normalized_mae",
+      "where": {
+        "model": "persistence"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/fit_mean/mae",
+      "expected": 25.244190182840324,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "mae",
+      "where": {
+        "model": "fit_mean"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/fit_mean/normalized_mae",
+      "expected": 0.4456003357435542,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "normalized_mae",
+      "where": {
+        "model": "fit_mean"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/fit_median/mae",
+      "expected": 13.998191865694118,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "mae",
+      "where": {
+        "model": "fit_median"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/fit_median/normalized_mae",
+      "expected": 0.2470904770554288,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "normalized_mae",
+      "where": {
+        "model": "fit_median"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/TRTR/mae",
+      "expected": 21.930489090639526,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "mae",
+      "where": {
+        "model": "TRTR"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/TRTR/normalized_mae",
+      "expected": 0.3871082110786813,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "normalized_mae",
+      "where": {
+        "model": "TRTR"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/TSTR_reference_assisted/mae",
+      "expected": 27.14840204734362,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "mae",
+      "where": {
+        "model": "TSTR_reference_assisted"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression/TSTR_reference_assisted/normalized_mae",
+      "expected": 0.4792127210093848,
+      "op": "csv",
+      "path": "protocol_regression/q5_corrected_scores.csv",
+      "aggregate": "mean",
+      "column": "normalized_mae",
+      "where": {
+        "model": "TSTR_reference_assisted"
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R1_aggregate_gate/TRTR",
+      "expected": 0.8936497159798131,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TRTR",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R1_aggregate_gate",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R1_aggregate_gate/TSTR",
+      "expected": 0.8062583452146559,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TSTR",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R1_aggregate_gate",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R1_aggregate_gate/gap",
+      "expected": 0.0873913707651572,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "gap",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R1_aggregate_gate",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R1_aggregate_gate/TRTR",
+      "expected": 0.72505087460237,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TRTR",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R1_aggregate_gate",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R1_aggregate_gate/TSTR",
+      "expected": 0.4759633115141898,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TSTR",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R1_aggregate_gate",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R1_aggregate_gate/gap",
+      "expected": 0.2490875630881802,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "gap",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R1_aggregate_gate",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R2_role_only/TRTR",
+      "expected": 0.8886283013103401,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TRTR",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R2_role_only",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R2_role_only/TSTR",
+      "expected": 0.761030110666033,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TSTR",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R2_role_only",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R2_role_only/gap",
+      "expected": 0.1275981906443071,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "gap",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R2_role_only",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R2_role_only/TRTR",
+      "expected": 0.727007251008309,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TRTR",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R2_role_only",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R2_role_only/TSTR",
+      "expected": 0.5245353330541659,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TSTR",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R2_role_only",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R2_role_only/gap",
+      "expected": 0.2024719179541431,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "gap",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R2_role_only",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R3_governed/TRTR",
+      "expected": 0.8787020220879443,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TRTR",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R3_governed",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R3_governed/TSTR",
+      "expected": 0.832957798673818,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TSTR",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R3_governed",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T1_driver_next/R3_governed/gap",
+      "expected": 0.0457442234141263,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "gap",
+      "where": {
+        "task": "T1_driver_next",
+        "regime": "R3_governed",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R3_governed/TRTR",
+      "expected": 0.8714055348628773,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TRTR",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R3_governed",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R3_governed/TSTR",
+      "expected": 0.4853549100419486,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "TSTR",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R3_governed",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "task/T2_router_regime/R3_governed/gap",
+      "expected": 0.3860506248209287,
+      "op": "csv",
+      "path": "residential_BINARY_V6/EXT_OUT/tables/EXT_A_regime_consequence_5seed.csv",
+      "aggregate": "single",
+      "column": "gap",
+      "where": {
+        "task": "T2_router_regime",
+        "regime": "R3_governed",
+        "seed": 20260702
+      },
+      "decimals": 6
+    },
+    {
+      "id": "regression_summary/mean_signed_loss",
+      "expected": 0.09210450993070352,
+      "op": "json",
+      "path": "protocol_regression/summary.json",
+      "key": "mean_signed_loss",
+      "decimals": 6
+    },
+    {
+      "id": "regression_summary/sd_signed_loss",
+      "expected": 0.009649445319223795,
+      "op": "json",
+      "path": "protocol_regression/summary.json",
+      "key": "sd_signed_loss",
+      "decimals": 6
+    },
+    {
+      "id": "regression_summary/median_absolute_gap",
+      "expected": 0.09286083408148038,
+      "op": "json",
+      "path": "protocol_regression/summary.json",
+      "key": "median_absolute_gap",
+      "decimals": 6
+    },
+    {
+      "id": "regression_summary/p95_absolute_gap",
+      "expected": 0.10292450406267074,
+      "op": "json",
+      "path": "protocol_regression/summary.json",
+      "key": "p95_absolute_gap",
+      "decimals": 6
+    },
+    {
+      "id": "figure3/Full real/active_union_rate",
+      "expected": 0.26602488847147215,
+      "op": "identity",
+      "dependencies": [
+        "QSixSeqRealUnionRate"
+      ],
+      "decimals": 6,
+      "displayed_value": 0.266025
+    },
+    {
+      "id": "figure3/Real holdout/active_union_rate",
+      "expected": 0.3023474178403756,
+      "op": "identity",
+      "dependencies": [
+        "QSixSeqRealHoldoutUnionRate"
+      ],
+      "decimals": 6,
+      "displayed_value": 0.302347
+    },
+    {
+      "id": "figure3/Synthetic/active_union_rate",
+      "expected": 0.6212725992016905,
+      "op": "identity",
+      "dependencies": [
+        "QSixSeqSyntheticUnionRate"
+      ],
+      "decimals": 6,
+      "displayed_value": 0.621273
+    },
+    {
+      "id": "figure3/Continuous/Pass",
+      "expected": 5.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarContinuousPass"
+      ],
+      "decimals": 6,
+      "displayed_value": 5.0
+    },
+    {
+      "id": "figure3/Continuous/Warning",
+      "expected": 10.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarContinuousWarning"
+      ],
+      "decimals": 6,
+      "displayed_value": 10.0
+    },
+    {
+      "id": "figure3/Continuous/Fatal",
+      "expected": 49.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarContinuousFatal"
+      ],
+      "decimals": 6,
+      "displayed_value": 49.0
+    },
+    {
+      "id": "figure3/Binary/Pass",
+      "expected": 27.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarBinaryPass"
+      ],
+      "decimals": 6,
+      "displayed_value": 27.0
+    },
+    {
+      "id": "figure3/Binary/Warning",
+      "expected": 2.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarBinaryWarning"
+      ],
+      "decimals": 6,
+      "displayed_value": 2.0
+    },
+    {
+      "id": "figure3/Binary/Fatal",
+      "expected": 2.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarBinaryFatal"
+      ],
+      "decimals": 6,
+      "displayed_value": 2.0
+    },
+    {
+      "id": "figure3/Drivers/Pass",
+      "expected": 75.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarDriverPass"
+      ],
+      "decimals": 6,
+      "displayed_value": 75.0
+    },
+    {
+      "id": "figure3/Drivers/Warning",
+      "expected": 11.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarDriverWarning"
+      ],
+      "decimals": 6,
+      "displayed_value": 11.0
+    },
+    {
+      "id": "figure3/Drivers/Fatal",
+      "expected": 13.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarDriverFatal"
+      ],
+      "decimals": 6,
+      "displayed_value": 13.0
+    },
+    {
+      "id": "figure3/Observability/Pass",
+      "expected": 55.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarObsPass"
+      ],
+      "decimals": 6,
+      "displayed_value": 55.0
+    },
+    {
+      "id": "figure3/Observability/Warning",
+      "expected": 11.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarObsWarning"
+      ],
+      "decimals": 6,
+      "displayed_value": 11.0
+    },
+    {
+      "id": "figure3/Observability/Fatal",
+      "expected": 31.0,
+      "op": "identity",
+      "dependencies": [
+        "SmartStarObsFatal"
+      ],
+      "decimals": 6,
+      "displayed_value": 31.0
+    }
+  ]
+}

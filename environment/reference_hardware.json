@@ -1,0 +1,16 @@
+{
+  "cpu": "x86_64",
+  "platform": "Linux-5.14.0-503.40.1.el9_5.x86_64-x86_64-with-glibc2.34",
+  "cpu_model": "Intel(R) Xeon(R) Gold 6430",
+  "gpu_driver": [
+    "NVIDIA L40S, 580.65.06",
+    "NVIDIA L40S, 580.65.06"
+  ],
+  "torch_cuda_build": "12.8",
+  "cudnn": 91002,
+  "cuda_available": true,
+  "gpu_devices": [
+    "NVIDIA L40S",
+    "NVIDIA L40S"
+  ]
+}

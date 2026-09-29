@@ -1,0 +1,5 @@
+owner_role,status,auc_oriented,n_rows_used,n_cols_used
+iot_continuous,fatal,0.999918,5000,64
+iot_binary,fatal,0.712427,5000,31
+iot_driver,fatal,0.818712,5000,80
+iot_observability,fatal,0.999921,5000,80

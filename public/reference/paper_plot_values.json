@@ -1,0 +1,17 @@
+{
+  "QSixSeqRealUnionRate": 0.266025,
+  "QSixSeqRealHoldoutUnionRate": 0.302347,
+  "QSixSeqSyntheticUnionRate": 0.621273,
+  "SmartStarContinuousPass": 5.0,
+  "SmartStarContinuousWarning": 10.0,
+  "SmartStarContinuousFatal": 49.0,
+  "SmartStarBinaryPass": 27.0,
+  "SmartStarBinaryWarning": 2.0,
+  "SmartStarBinaryFatal": 2.0,
+  "SmartStarDriverPass": 75.0,
+  "SmartStarDriverWarning": 11.0,
+  "SmartStarDriverFatal": 13.0,
+  "SmartStarObsPass": 55.0,
+  "SmartStarObsWarning": 11.0,
+  "SmartStarObsFatal": 31.0
+}

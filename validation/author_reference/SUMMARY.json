@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FOR_VERSIONED_REFERENCE",
+  "reference_version": "2026-09-29-paper-v1",
+  "reference_sha256": "40b25bb5bd94c7a357349693a9bf54d6ed9bca0d59218d9aca835e2c843762f4",
+  "checks": 228,
+  "passed": 228,
+  "paper_precision_matches": 228,
+  "strict_numeric_matches": 228,
+  "blocked_or_errors": 0,
+  "different": 0,
+  "inputs_changed_during_check": [],
+  "run": "<AUTHOR_OUTPUT>/runs/20260927T211120_911d03",
+  "evaluation": "<AUTHOR_OUTPUT>/baseline_amendments/20260927T211120_911d03/ctgan_numeric_counts_v1/evaluation_20260929T034145_967324Z",
+  "training_started": false,
+  "historical_comparisons_modified": false,
+  "exhaustive_manuscript_coverage": false,
+  "independent_run_repeatability_verified": false,
+  "scope": "Explicit mapped reported results, not exhaustive manuscript coverage or independent rerun repeatability"
+}

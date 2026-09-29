@@ -1,0 +1,30 @@
+{
+  "absolute_probability_tolerance": 0.01,
+  "calibration": "Tolerance, sample size, and trial count specified before pilot; pilot measures runtime only",
+  "candidate_c": [
+    0.05,
+    0.045,
+    0.03,
+    0.0
+  ],
+  "complete_evidence_comparators": "Same required marginal and co-activity differences, with the same tolerance",
+  "feature_scopes": [
+    2,
+    8,
+    32
+  ],
+  "final_seed": 928361,
+  "low_support_rows": 16,
+  "minimum_rows": 128,
+  "n_rows_per_trajectory": 12000,
+  "p": 0.1,
+  "pilot_seed": 319407,
+  "pilot_trials_per_setting": 8,
+  "process": "Rows independent; first pair has P11=c,P10=P01=p-c,P00=1-2p+c; remaining features independent Bernoulli(p)",
+  "purpose": "Controlled binary co-activity and marginal-rate preservation only",
+  "reduced_evidence_comparators": "Pooled rate only, or all individual rates; neither measures co-activity",
+  "reference_c": 0.05,
+  "trials_per_setting": 100,
+  "truth": "All population marginal rates equal p and abs(candidate_c-reference_c)<=0.01",
+  "version": "decision-reference-1.0"
+}

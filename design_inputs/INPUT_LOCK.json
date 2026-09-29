@@ -1,0 +1,62 @@
+{
+  "origin": "Archived data-derived TRAIN/VAL coupling manifest and supporting records",
+  "upstream_regenerated": false,
+  "files": [
+    {
+      "path": "coupling_manifest_all.csv",
+      "sha256": "e635e47d528db069d131e7983f79f08d1a2338bb9676d0374c0e51d9e2f1e5b4"
+    },
+    {
+      "path": "coupling_manifest_all.parquet",
+      "sha256": "e31223e8d06128261d7f9ca792cb314b2b743ee505ead82c1164fb16bfb2ffa6"
+    },
+    {
+      "path": "coupling_manifest_meta.json",
+      "sha256": "0acc0bd7c0b7f30097f64c9567970e6cc4b59d43b4ec0a0953dd256bd56a737d"
+    },
+    {
+      "path": "coupling_manifest_preview.json",
+      "sha256": "72a44926ca5a74b9dcf79cd5c7bf20ef35518e0b5cc2326d2c9f528dbf9adc38"
+    },
+    {
+      "path": "coupling_manifest_tierA.csv",
+      "sha256": "205840a2459e890150c94390971ade2a8e2e7bf2a9f5e30e79cd5a042cdb3152"
+    },
+    {
+      "path": "coupling_manifest_tierA.parquet",
+      "sha256": "3bd94ed9c5dc4b2f234c7afddb31dfb82b00a6e9c825c15c73bd4d33e5675c1b"
+    },
+    {
+      "path": "coupling_manifest_tierB.csv",
+      "sha256": "3fd97ea60001d800f5ff1ec36034f92ea4f115dbe30668c428c5f8280063331e"
+    },
+    {
+      "path": "coupling_manifest_tierB.parquet",
+      "sha256": "928241e84a454bc30b05137d94036a7a7396d6df8540a60257ec9e3b58d35bc1"
+    },
+    {
+      "path": "supporting_records/alignment_manifest_builder_input_train.json",
+      "sha256": "fe656b292897c5b158c89ea855e179cb8163ef16aa7dfcb2275a0f3a4b8ca922"
+    },
+    {
+      "path": "supporting_records/alignment_manifest_builder_input_val.json",
+      "sha256": "354bfc2fafe6252f45c5550273c94d88653c130e2b54aee79ac84e739cbd0c15"
+    },
+    {
+      "path": "supporting_records/alignment_replication_manifest_builder_input.json",
+      "sha256": "a20c9cca33d8b7cada1c294566909b8985c6746e5a52a90935363e847d566ecf"
+    },
+    {
+      "path": "supporting_records/alignment_replication_train_val.csv",
+      "sha256": "5e0a40406b55fb5100c2bb05bb46284142c181a47498d60e51eb959271b6b50a"
+    },
+    {
+      "path": "supporting_records/alignment_results_train.csv",
+      "sha256": "714cd0f90112e461a4152c4e7d629886a8fbe40383dd4426e938eeddbe529f3f"
+    },
+    {
+      "path": "supporting_records/alignment_results_val.csv",
+      "sha256": "0a3e7b55f357143ca2905eed73625703f31d9cac3d5514ba5a81e17abcdabaa3"
+    }
+  ]
+}
